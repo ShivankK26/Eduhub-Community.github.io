@@ -5,44 +5,42 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GoStartup - Tailwind CSS Template</title>
+  <title>EduHub Community- Let's Take You Forward!</title>
   <link rel="icon" href="favicon.ico">
   <link href="style.css" rel="stylesheet">
 </head>
 
 <body class="dark:bg-dark">
   <!-- ===== Header Start ===== -->
-  <header class="header absolute top-0 left-0 w-full">
-    <div class="flex w-full flex-wrap px-5 lg:flex-nowrap lg:items-center lg:px-5 xl:px-10 2xl:px-20">
+  <header class="absolute top-0 left-0 w-full header">
+    <div class="flex flex-wrap w-full px-5 lg:flex-nowrap lg:items-center lg:px-5 xl:px-10 2xl:px-20">
       <div class="relative z-[99] max-w-[250px] lg:w-full xl:max-w-[350px]">
         <a href="index.html" class="inline-block">
-          <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/img.png" alt="logo"
-            class="hidden h-[50px] dark:block" />
-          <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/img.png" alt="logo"
-            class="h-[50px] dark:hidden ml-6" />
+          <img src="/src/images/eduhub/img.png" alt="logo" class="hidden h-[50px] dark:block" />
+          <img src="/src/images/eduhub/img.png" alt="logo" class="h-[50px] dark:hidden ml-6" />
         </a>
       </div>
       <div
-        class="menu-wrapper fixed top-0 left-0 z-50 h-screen w-full justify-center bg-white p-5 dark:bg-dark lg:visible lg:static lg:flex lg:h-auto lg:justify-start lg:bg-transparent lg:p-0 lg:opacity-100 dark:lg:bg-transparent">
-        <div class="w-full self-center">
+        class="fixed top-0 left-0 z-50 justify-center w-full h-screen p-5 bg-white menu-wrapper dark:bg-dark lg:visible lg:static lg:flex lg:h-auto lg:justify-start lg:bg-transparent lg:p-0 lg:opacity-100 dark:lg:bg-transparent">
+        <div class="flex flex-row items-center justify-center w-full mr-20">
           <nav>
             <ul
-              class="navbar flex flex-col items-center justify-center space-y-5 text-center lg:flex-row lg:justify-start lg:space-x-10 lg:space-y-0">
+              class="flex flex-col items-center justify-center space-y-5 text-center navbar lg:flex-row lg:justify-start lg:space-x-10 lg:space-y-0">
               <li>
                 <a href="#home"
-                  class="menu-scroll active inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                  class="inline-flex items-center justify-center text-base text-center menu-scroll active font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Home
                 </a>
               </li>
               <li>
                 <a href="#features"
-                  class="menu-scroll inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                  class="inline-flex items-center justify-center text-base text-center menu-scroll font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Features
                 </a>
               </li>
-              <li class="submenu-item group relative">
+              <!-- <li class="relative submenu-item group">
                 <a href="javascript:void(0)"
-                  class="submenu-taggler inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                  class="inline-flex items-center justify-center text-base text-center submenu-taggler font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Pages
 
                   <span class="pl-3">
@@ -56,68 +54,68 @@
                   class="submenu hidden space-y-5 pt-5 transition duration-300 lg:invisible lg:absolute lg:top-[120%] lg:block lg:w-[350px] lg:rounded lg:border lg:bg-white lg:px-8 lg:pb-5 lg:text-left lg:opacity-0 lg:group-hover:visible lg:group-hover:top-full lg:group-hover:opacity-100 dark:lg:border-transparent dark:lg:bg-[#2C3443]">
                   <li>
                     <a href="blog-grids.html"
-                      class="inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                      class="inline-flex items-center justify-center text-base text-center font-heading text-dark-text hover:text-primary dark:hover:text-white">
                       Blog Grids
                     </a>
                   </li>
                   <li>
                     <a href="blog-details.html"
-                      class="inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                      class="inline-flex items-center justify-center text-base text-center font-heading text-dark-text hover:text-primary dark:hover:text-white">
                       Blog Details
                     </a>
                   </li>
                   <li>
                     <a href="404.html"
-                      class="inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                      class="inline-flex items-center justify-center text-base text-center font-heading text-dark-text hover:text-primary dark:hover:text-white">
                       404 Error
                     </a>
                   </li>
                   <li>
                     <a href="signin.html"
-                      class="inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                      class="inline-flex items-center justify-center text-base text-center font-heading text-dark-text hover:text-primary dark:hover:text-white">
                       Sign In
                     </a>
                   </li>
                   <li>
                     <a href="signup.html"
-                      class="inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                      class="inline-flex items-center justify-center text-base text-center font-heading text-dark-text hover:text-primary dark:hover:text-white">
                       Sign Up
                     </a>
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="#support"
-                  class="menu-scroll inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
-                  Support
-                </a>
+              <li> -->
+              <a href="#support"
+                class="inline-flex items-center justify-center text-base text-center menu-scroll font-heading text-dark-text hover:text-primary dark:hover:text-white">
+                Support
+              </a>
               </li>
             </ul>
           </nav>
         </div>
         <div
-          class="absolute bottom-0 left-0 flex w-full items-center justify-between space-x-5 self-end p-5 lg:static lg:w-auto lg:self-center lg:p-0">
+          class="absolute bottom-0 left-0 flex items-center self-end justify-between w-full p-5 space-x-5 lg:static lg:w-auto lg:self-center lg:p-0">
           <!-- <a href="signup.html"
-            class="w-full whitespace-nowrap rounded bg-primary py-3 px-6 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto">
+            class="w-full px-6 py-3 text-center text-white rounded whitespace-nowrap bg-primary font-heading hover:bg-opacity-90 lg:w-auto">
 
           </a> -->
-          <a href="https://linktr.ee/EduhubCommunity"
+          <a href="https://discord.com/invite/RyUs94pSNT"
             class="w-full whitespace-nowrap rounded bg-[#222C40] py-3 px-6 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto">
             Join Us
           </a>
         </div>
       </div>
-      <div class="absolute top-1/2 right-5 z-50 flex -translate-y-1/2 items-center lg:static lg:translate-y-0">
+      <!-- <div class="absolute z-50 flex items-center -translate-y-1/2 top-1/2 right-5 lg:static lg:translate-y-0">
         <label for="darkToggler"
-          class="bg-gray-2 dark:bg-dark-bg z-40 relative flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-black dark:text-white md:h-14 md:w-14">
+          class="relative z-40 flex items-center justify-center text-black rounded-full cursor-pointer bg-gray-2 dark:bg-dark-bg h-9 w-9 dark:text-white md:h-14 md:w-14">
           <input type="checkbox" name="darkToggler" id="darkToggler" class="sr-only" aria-label="darkToggler" />
-          <svg viewBox="0 0 23 23" class="h-5 w-5 stroke-current dark:hidden md:h-6 md:w-6" fill="none">
+          <svg viewBox="0 0 23 23" class="w-5 h-5 stroke-current dark:hidden md:h-6 md:w-6" fill="none">
             <path
               d="M9.55078 1.5C5.80078 1.5 1.30078 5.25 1.30078 11.25C1.30078 17.25 5.80078 21.75 11.8008 21.75C17.8008 21.75 21.5508 17.25 21.5508 13.5C13.3008 18.75 4.30078 9.75 9.55078 1.5Z"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
           <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-            class="hidden h-5 w-5 dark:block md:h-6 md:w-6">
+            class="hidden w-5 h-5 dark:block md:h-6 md:w-6">
             <mask id="path-1-inside-1_977:1934" fill="white">
               <path
                 d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z" />
@@ -128,17 +126,17 @@
           </svg>
         </label>
 
-        <button class="menu-toggler relative z-50 text-dark dark:text-white lg:hidden">
-          <svg width="28" height="28" viewBox="0 0 28 28" class="cross hidden fill-current">
+        <button class="relative z-50 menu-toggler text-dark dark:text-white lg:hidden">
+          <svg width="28" height="28" viewBox="0 0 28 28" class="hidden fill-current cross">
             <path
               d="M14.0002 11.8226L21.6228 4.20001L23.8002 6.37745L16.1776 14L23.8002 21.6226L21.6228 23.8L14.0002 16.1774L6.37763 23.8L4.2002 21.6226L11.8228 14L4.2002 6.37745L6.37763 4.20001L14.0002 11.8226Z" />
           </svg>
-          <svg width="22" height="22" viewBox="0 0 22 22" class="menu fill-current">
+          <svg width="22" height="22" viewBox="0 0 22 22" class="fill-current menu">
             <path
               d="M2.75 3.66666H19.25V5.49999H2.75V3.66666ZM2.75 10.0833H19.25V11.9167H2.75V10.0833ZM2.75 16.5H19.25V18.3333H2.75V16.5Z" />
           </svg>
         </button>
-      </div>
+      </div> -->
     </div>
   </header>
   <!-- ===== Header End ===== -->
@@ -146,30 +144,31 @@
   <!-- ===== Hero Section Start ===== -->
   <section id="home" class="relative z-40 overflow-hidden pt-28 pb-24 sm:pt-36 lg:pt-[170px] lg:pb-[120px]">
     <div class="px-4 xl:container">
-      <div class="-mx-4 flex flex-wrap items-center">
+      <div class="flex flex-wrap items-center -mx-4">
         <div class="w-full px-3 lg:w-1/2">
           <div class="mx-auto mb-12 max-w-[530px] text-center lg:ml-0 lg:mb-0 lg:text-left">
             <span
               class="wow fadeInUp mb-8 inline-block rounded-full bg-primary bg-opacity-5 py-[10px] px-5 font-heading text-base text-primary dark:bg-white dark:bg-opacity-10 dark:text-white"
               data-wow-delay=".2s">
-              <span class="mr-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
+              <span class="inline-block w-2 h-2 mr-2 rounded-full bg-primary"></span>
               Let's take you forward :)
             </span>
+
             <h1
               class="wow 
                 fadeInUp mb-5 font-heading text-2xl font-semibold dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]"
               data-wow-delay=".3s">
-              The Largest Community Of tomorrow's
+              The Largest Community Of Tomorrow's
               <!-- <span class="underline"> Business </span> -->
-              <span class="txt-type underline" data-wait="3000"
+              <span class="underline txt-type" data-wait="3000"
                 data-words='["Builders", "Leaders", "Creators", "Hackers"]'></span>
             </h1>
-            <p class="wow fadeInUp mb-12 text-base text-dark-text" data-wow-delay=".4s">
+            <p class="mb-12 text-base wow fadeInUp text-dark-text" data-wow-delay=".4s">
               Empower Your Blockchain & Open-Source Journey with India's Largest Community Of Enthusiast People. We are
               Bridging the Gap between Tech Industry & Student Communities, Platform for Students to Learn new Skills,
               Network With Industry Professionals and grow as an individual.
             </p>
-            <div class="wow fadeInUp flex flex-wrap items-center justify-center lg:justify-start" data-wow-delay=".5s">
+            <div class="flex flex-wrap items-center justify-center wow fadeInUp lg:justify-start" data-wow-delay=".5s">
               <a href="#features"
                 class="inline-flex items-center rounded bg-primary py-[10px] px-6 font-heading text-base text-white hover:bg-opacity-90 md:py-[14px] md:px-8">
                 LFG 🚀
@@ -188,7 +187,7 @@
                       d="M19.376 12.416L8.777 19.482C8.70171 19.5321 8.61423 19.5608 8.52389 19.5652C8.43355 19.5695 8.34373 19.5492 8.264 19.5065C8.18427 19.4639 8.1176 19.4003 8.07111 19.3228C8.02462 19.2452 8.00005 19.1564 8 19.066V4.934C8.00005 4.84356 8.02462 4.75482 8.07111 4.67724C8.1176 4.59966 8.18427 4.53615 8.264 4.49346C8.34373 4.45077 8.43355 4.43051 8.52389 4.43483C8.61423 4.43915 8.70171 4.46789 8.777 4.518L19.376 11.584C19.4445 11.6297 19.5006 11.6915 19.5395 11.7641C19.5783 11.8367 19.5986 11.9177 19.5986 12C19.5986 12.0823 19.5783 12.1633 19.5395 12.2359C19.5006 12.3085 19.4445 12.3703 19.376 12.416Z" />
                   </svg>
                 </span>
-                How it Work
+                How it Works
               </a>
             </div>
           </div>
@@ -197,16 +196,15 @@
           <div class="wow fadeInRight relative z-30 mx-auto h-[560px] w-full max-w-[700px] lg:ml-0"
             data-wow-delay=".3s">
             <div class="absolute top-0 right-0 lg:w-11/12">
-              <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/grp.JPG"
-                alt="hero-image" />
+              <img src="/src/images/eduhub/final img 1.png" alt="hero-image" />
             </div>
-            <div class="absolute left-0 bottom-0 z-10">
-              <!-- <img src="" alt="hero-image" />
+            <div class="absolute bottom-0 left-0 z-10">
+              <img src="/src/images/eduhub/final img 2.png" alt="hero-image" />
               <div
                 class="absolute -top-6 -right-6 -z-10 h-full w-full border border-primary border-opacity-10 bg-primary bg-opacity-5 backdrop-blur-[6px] dark:border-white dark:border-opacity-10 dark:bg-white dark:bg-opacity-10">
-              </div> -->
+              </div>
             </div>
-            <div class="absolute left-0 bottom-0">
+            <div class="absolute bottom-0 left-0">
               <svg width="72" height="38" viewBox="0 0 72 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M62.0035 2.04985C59.6808 1.76671 57.4524 2.70929 55.1508 4.68209C51.3631 7.92863 44.7908 9.54366 38.8668 4.69678C36.329 2.6204 34.117 2.29213 32.2894 2.59672C30.3972 2.91209 28.8057 3.92088 27.5547 4.75487C25.5734 6.07577 23.3915 7.46379 20.8786 7.78953C18.2847 8.12577 15.515 7.32034 12.3598 4.69105C9.71804 2.48955 7.45748 2.0661 5.72104 2.33325C3.94436 2.6066 2.56003 3.6273 1.76341 4.56877C1.40666 4.99037 0.775686 5.04295 0.354079 4.68621C-0.0675277 4.32946 -0.120109 3.69849 0.236635 3.27688C1.27334 2.05168 3.0643 0.71846 5.41692 0.356509C7.80979 -0.0116349 10.6326 0.648246 13.6402 3.1546C16.485 5.52529 18.7154 6.05321 20.6215 5.80612C22.6086 5.54854 24.4266 4.43657 26.4453 3.09078L27 3.92282L26.4453 3.09078C27.6943 2.25809 29.6028 1.0169 31.9606 0.623935C34.383 0.220203 37.1711 0.725274 40.1333 3.14886C45.1548 7.25733 50.6369 5.9169 53.8492 3.16356C56.3795 0.994798 59.1512 -0.312658 62.2455 0.0645503C65.3089 0.43799 68.4333 2.43425 71.7557 6.26783C72.1174 6.68518 72.0723 7.31674 71.655 7.67845C71.2376 8.04015 70.606 7.99504 70.2443 7.57769C67.0668 3.91125 64.3571 2.33677 62.0035 2.04985Z"
@@ -222,7 +220,7 @@
                   fill="#4A6CF7" />
               </svg>
             </div>
-            <div class="absolute left-1/2 bottom-0">
+            <div class="absolute bottom-0 left-1/2">
               <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.9"
                   d="M120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60Z"
@@ -241,7 +239,7 @@
       </div>
     </div>
     <div
-      class="absolute bottom-0 left-0 -z-10 h-full w-full bg-cover bg-center opacity-10 dark:opacity-40 bg-noise-pattern">
+      class="absolute bottom-0 left-0 w-full h-full bg-center bg-cover -z-10 opacity-10 dark:opacity-40 bg-noise-pattern">
     </div>
     <div class="absolute top-0 right-0 -z-10">
       <svg width="1356" height="860" viewBox="0 0 1356 860" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +302,7 @@
         </p>
       </div>
 
-      <div class="-mx-4 flex flex-wrap justify-center">
+      <div class="flex flex-wrap justify-center -mx-4">
         <div class="w-full px-4 md:w-1/2 lg:w-1/3">
           <div class="wow fadeInUp group mx-auto mb-10 max-w-[380px] text-center md:mb-16" data-wow-delay=".2s">
             <div
@@ -315,11 +313,12 @@
               </svg>
             </div>
             <div>
-              <h3 class="mb-3 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl md:mb-5">
+              <h3 class="mb-3 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl md:mb-5">
                 Web3 & Blockchain
               </h3>
               <p class="text-base text-dark-text">
-                Assisting Startups & Providing them a MarketPlace. Helping Web3 Enthusiast to become a Blockchain Dev.
+                Assisting Startups & Providing them a MarketPlace. Helping Web3 Enthusiast to become a Blockchain
+                Developer.
               </p>
             </div>
           </div>
@@ -336,11 +335,11 @@
               </svg>
             </div>
             <div>
-              <h3 class="mb-3 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl md:mb-5">
+              <h3 class="mb-3 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl md:mb-5">
                 Open Source
               </h3>
               <p class="text-base text-dark-text">
-                Helping Devs & Organizations to Levrage the Power Of Open Source & Expands their Horizon.
+                Helping Developers & Organizations to Levrage the Power Of Open Source & Expand their Horizon.
               </p>
             </div>
           </div>
@@ -350,12 +349,12 @@
             <div
               class="mx-auto mb-6 flex h-[70px] w-[70px] items-center justify-center rounded-full bg-primary bg-opacity-5 text-primary transition group-hover:bg-primary group-hover:bg-opacity-100 group-hover:text-white dark:bg-white dark:bg-opacity-5 dark:text-white dark:group-hover:bg-primary dark:group-hover:bg-opacity-100 md:mb-9 md:h-[90px] md:w-[90px]">
               <svg width="44" height="44" viewBox="0 0 44 44" class="fill-current">
-                <!-- <path
+                <path
                   d="M36.6667 40.3334H7.33333C6.8471 40.3334 6.38079 40.1402 6.03697 39.7964C5.69315 39.4526 5.5 38.9863 5.5 38.5V14.6667H38.5V38.5C38.5 38.9863 38.3068 39.4526 37.963 39.7964C37.6192 40.1402 37.1529 40.3334 36.6667 40.3334ZM12.8333 20.1667V27.5H20.1667V20.1667H12.8333ZM12.8333 31.1667V34.8334H31.1667V31.1667H12.8333ZM23.8333 22V25.6667H31.1667V22H23.8333Z" />
                 <path opacity="0.5"
                   d="M38.5 11H5.5V5.49996C5.5 5.01373 5.69315 4.54741 6.03697 4.2036C6.38079 3.85978 6.8471 3.66663 7.33333 3.66663H36.6667C37.1529 3.66663 37.6192 3.85978 37.963 4.2036C38.3068 4.54741 38.5 5.01373 38.5 5.49996V11Z" />
-              </svg> -->
-                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              </svg>
+              <!-- <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_221_190)">
                     <path
                       d="M13.0401 23.0882C12.9717 23.362 12.8137 23.605 12.5913 23.7787C12.3688 23.9525 12.0947 24.0468 11.8125 24.0469C11.7087 24.0466 11.6053 24.0339 11.5045 24.0089L8.12952 23.1652C7.98897 23.1309 7.85549 23.0723 7.73506 22.9922L5.20382 21.3047C4.92409 21.1184 4.72984 20.8286 4.66377 20.4991C4.59771 20.1696 4.66526 19.8273 4.85155 19.5476C5.03784 19.2679 5.32763 19.0736 5.65715 19.0075C5.98667 18.9415 6.32894 19.009 6.60866 19.1953L8.95745 20.7615L12.1215 21.5525C12.4469 21.6344 12.7265 21.8422 12.8988 22.1302C13.071 22.4181 13.1219 22.7627 13.0401 23.0882ZM26.8945 12.9463C26.8079 13.2091 26.67 13.4521 26.489 13.6613C26.308 13.8706 26.0874 14.0419 25.8398 14.1655L23.4278 15.3721L17.7767 21.1444C17.6222 21.2991 17.4302 21.4111 17.2195 21.4695C17.0088 21.5279 16.7865 21.5307 16.5744 21.4777L9.8244 19.7902C9.66604 19.7502 9.51677 19.6804 9.3846 19.5845L3.69139 15.428L1.16647 14.1623C0.91824 14.039 0.696757 13.8679 0.514685 13.6589C0.332613 13.4499 0.193523 13.207 0.105367 12.9442C0.0172104 12.6814 -0.0182833 12.4038 0.000914911 12.1273C0.0201131 11.8508 0.0936266 11.5807 0.217253 11.3326L2.84764 6.09504C3.09791 5.59482 3.53661 5.21448 4.06727 5.03766C4.59792 4.86084 5.17708 4.90202 5.67737 5.15215L7.84897 6.23953L13.1446 4.69125C13.3767 4.62375 13.6233 4.62375 13.8554 4.69125L19.151 6.23953L21.3268 5.15109C21.8268 4.90237 22.405 4.86207 22.9347 5.03902C23.4644 5.21597 23.9022 5.59573 24.1523 6.09504L26.7732 11.3358C26.899 11.5828 26.9745 11.8524 26.9953 12.1289C27.0162 12.4053 26.9819 12.6832 26.8945 12.9463ZM21.1254 14.1328L18.4887 8.85938H15.7001L11.6712 12.767C13.3333 13.5327 14.9576 12.787 15.9764 11.7598C16.1964 11.5386 16.4903 11.4065 16.8018 11.3888C17.1132 11.3711 17.4202 11.469 17.6639 11.6638L20.9608 14.3005L21.1254 14.1328ZM2.67573 12.0899L3.78632 12.6457L6.02964 8.16012L4.918 7.6043L2.67573 12.0899ZM19.1953 16.1367L16.9066 14.2984C14.7456 15.911 12.0709 16.0692 9.84022 14.6412C9.57404 14.4715 9.34934 14.2443 9.18266 13.9762C9.01599 13.7082 8.91159 13.4061 8.87718 13.0924C8.84277 12.7786 8.87921 12.4611 8.98382 12.1633C9.08844 11.8655 9.25855 11.595 9.48163 11.3716L9.49428 11.359L13.6919 7.27734L13.5 7.22461L8.61257 8.65371L5.96319 13.9525L10.6724 17.395L16.4869 18.8483L19.1953 16.1367ZM24.32 12.0909L22.082 7.6043L20.9703 8.16012L23.2137 12.6457L24.32 12.0909Z"
@@ -366,12 +365,12 @@
                       <rect width="27" height="27" fill="white" />
                     </clipPath>
                   </defs>
-                </svg>
+                </svg> -->
 
 
             </div>
             <div>
-              <h3 class="mb-3 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl md:mb-5">
+              <h3 class="mb-3 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl md:mb-5">
                 Networking
               </h3>
               <p class="text-base text-dark-text">
@@ -393,11 +392,11 @@
               </svg>
             </div>
             <div>
-              <h3 class="mb-3 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl md:mb-5">
+              <h3 class="mb-3 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl md:mb-5">
                 Community Collaborations
               </h3>
               <p class="text-base text-dark-text">
-                Collaborating with Different Tech Communities & helping them Grow together.
+                Collaborating with Different Tech Communities & Helping them Grow together.
               </p>
             </div>
           </div>
@@ -414,7 +413,7 @@
               </svg>
             </div>
             <div>
-              <h3 class="mb-3 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl md:mb-5">
+              <h3 class="mb-3 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl md:mb-5">
                 Campus Connect
               </h3>
               <p class="text-base text-dark-text">
@@ -435,11 +434,11 @@
               </svg>
             </div>
             <div>
-              <h3 class="mb-3 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl md:mb-5">
+              <h3 class="mb-3 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl md:mb-5">
                 Tech Events
               </h3>
               <p class="text-base text-dark-text">
-                Levraging a great deal of knowledge amongst Developers in our Events.
+                Making Knowledge Accessible amongst Developers in our Events.
               </p>
             </div>
           </div>
@@ -453,14 +452,14 @@
   <section id="about" class="pt-14 sm:pt-20 lg:pt-[130px]">
     <div class="px-4 xl:container">
       <!-- Section Title -->
-      <div class="wow fadeInUp relative mx-auto mb-12 pt-6 text-center lg:mb-20 lg:pt-16" data-wow-delay=".2s">
+      <div class="relative pt-6 mx-auto mb-12 text-center wow fadeInUp lg:mb-20 lg:pt-16" data-wow-delay=".2s">
         <span class="title"> ABOUT US </span>
         <h2
           class="mx-auto mb-5 max-w-[570px] font-heading text-3xl font-semibold text-dark dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
           About Our Ecosystem
         </h2>
         <p class="mx-auto max-w-[570px] text-base text-dark-text">
-          Empowering every Individual because You dont Need Fancy Tags to Make an Impact :)
+          Empowering Every Individual Because You dont Need Fancy Tags to Make an Impact :)
         </p>
       </div>
 
@@ -468,9 +467,9 @@
         class="wow fadeInUp relative z-10 overflow-hidden rounded px-8 pt-0 pb-8 md:px-[70px] md:pb-[70px] lg:px-[60px] lg:pb-[60px] xl:px-[70px] xl:pb-[70px]"
         data-wow-delay=".3s">
         <div
-          class="absolute top-0 left-0 -z-10 h-full w-full bg-cover bg-center opacity-10 dark:opacity-40 bg-noise-pattern">
+          class="absolute top-0 left-0 w-full h-full bg-center bg-cover -z-10 opacity-10 dark:opacity-40 bg-noise-pattern">
         </div>
-        <div class="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2">
+        <div class="absolute bottom-0 -translate-x-1/2 left-1/2 -z-10">
           <svg width="1174" height="560" viewBox="0 0 1174 560" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.4" filter="url(#filter0_f_41_257)">
               <rect x="450.531" y="279" width="272.933" height="328.051" fill="url(#paint0_linear_41_257)" />
@@ -490,7 +489,7 @@
             </defs>
           </svg>
         </div>
-        <div class="tabButtons flex w-full items-center justify-around">
+        <div class="flex items-center justify-around w-full tabButtons">
           <button
             class="w-full border-b px-2 pt-8 pb-6 font-heading text-base font-medium hover:border-primary hover:text-primary dark:border-[#4B4E56] dark:text-white dark:hover:border-primary lg:pt-9 lg:pb-7"
             onclick="showPanel(0)">
@@ -512,17 +511,17 @@
             <div class="-mx-4 flex flex-wrap items-center pt-[70px]">
               <div class="w-full px-4 lg:w-1/2">
                 <div class="relative z-30 mb-14 h-[490px] max-w-[600px] lg:mb-0">
-                  <div class="absolute left-0 top-0">
+                  <div class="absolute top-0 left-0">
                     <img src="src/images/about/image-1.jpg" alt="about-image" />
                   </div>
-                  <div class="absolute right-0 top-1/2 z-10 -translate-y-1/2">
+                  <div class="absolute right-0 z-10 -translate-y-1/2 top-1/2">
                     <img src="src/images/about/image-2.jpg" alt="about-image" />
                     <div
                       class="absolute -left-5 -top-5 -z-10 h-full w-full border border-primary border-opacity-10 bg-primary bg-opacity-5 backdrop-blur-[6px] dark:border-white dark:border-opacity-10 dark:bg-white dark:bg-opacity-10">
                     </div>
                   </div>
-                  <div class="absolute right-0 top-24 z-40">
-                    <svg width="72" height="38" viewBox="0 0 72 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <div class="absolute right-0 z-40 top-24">
+                    <!-- <svg width="72" height="38" viewBox="0 0 72 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M62.0035 2.04985C59.6808 1.76671 57.4524 2.70929 55.1508 4.68209C51.3631 7.92863 44.7908 9.54366 38.8668 4.69678C36.329 2.6204 34.117 2.29213 32.2894 2.59672C30.3972 2.91209 28.8057 3.92088 27.5547 4.75487C25.5734 6.07577 23.3915 7.46379 20.8786 7.78953C18.2847 8.12577 15.515 7.32034 12.3598 4.69105C9.71804 2.48955 7.45748 2.0661 5.72104 2.33325C3.94436 2.6066 2.56003 3.6273 1.76341 4.56877C1.40666 4.99037 0.775686 5.04295 0.354079 4.68621C-0.0675277 4.32946 -0.120109 3.69849 0.236635 3.27688C1.27334 2.05168 3.0643 0.71846 5.41692 0.356509C7.80979 -0.0116349 10.6326 0.648246 13.6402 3.1546C16.485 5.52529 18.7154 6.05321 20.6215 5.80612C22.6086 5.54854 24.4266 4.43657 26.4453 3.09078L27 3.92282L26.4453 3.09078C27.6943 2.25809 29.6028 1.0169 31.9606 0.623935C34.383 0.220203 37.1711 0.725274 40.1333 3.14886C45.1548 7.25733 50.6369 5.9169 53.8492 3.16356C56.3795 0.994798 59.1512 -0.312658 62.2455 0.0645503C65.3089 0.43799 68.4333 2.43425 71.7557 6.26783C72.1174 6.68518 72.0723 7.31674 71.655 7.67845C71.2376 8.04015 70.606 7.99504 70.2443 7.57769C67.0668 3.91125 64.3571 2.33677 62.0035 2.04985Z"
                         fill="#4A6CF7" />
@@ -535,7 +534,8 @@
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M62.0035 31.8182C59.6808 31.535 57.4524 32.4776 55.1508 34.4504C51.3631 37.6969 44.7908 39.312 38.8668 34.4651C36.329 32.3887 34.117 32.0604 32.2894 32.365C30.3972 32.6804 28.8057 33.6892 27.5547 34.5232C25.5734 35.8441 23.3915 37.2321 20.8786 37.5578C18.2847 37.8941 15.515 37.0887 12.3598 34.4594C9.71804 32.2579 7.45748 31.8344 5.72104 32.1016C3.94436 32.3749 2.56003 33.3956 1.76341 34.3371C1.40666 34.7587 0.775686 34.8113 0.354079 34.4545C-0.0675277 34.0978 -0.120109 33.4668 0.236635 33.0452C1.27334 31.82 3.0643 30.4868 5.41692 30.1248C7.80979 29.7567 10.6326 30.4166 13.6402 32.9229C16.485 35.2936 18.7154 35.8215 20.6215 35.5744C22.6086 35.3169 24.4266 34.2049 26.4453 32.8591L27 33.6911L26.4453 32.8591C27.6943 32.0264 29.6028 30.7852 31.9606 30.3922C34.383 29.9885 37.1711 30.4936 40.1333 32.9172C45.1548 37.0256 50.6369 35.6852 53.8492 32.9319C56.3795 30.7631 59.1512 29.4557 62.2455 29.8329C65.3089 30.2063 68.4333 32.2026 71.7557 36.0361C72.1174 36.4535 72.0723 37.085 71.655 37.4468C71.2376 37.8085 70.606 37.7634 70.2443 37.346C67.0668 33.6796 64.3571 32.1051 62.0035 31.8182Z"
                         fill="#4A6CF7" />
-                    </svg>
+                    </svg> -->
+                    <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/DSC_9200.JPG" alt="">
                   </div>
                 </div>
               </div>
@@ -560,16 +560,16 @@
             <div class="-mx-4 flex flex-wrap items-center pt-[70px]">
               <div class="w-full px-4 lg:w-1/2">
                 <div class="relative z-30 mb-14 h-[490px] max-w-[600px] lg:mb-0">
-                  <div class="absolute left-0 top-0">
+                  <div class="absolute top-0 left-0">
                     <img src="src/images/about/image-1.jpg" alt="about-image" />
                   </div>
-                  <div class="absolute right-0 top-1/2 z-10 -translate-y-1/2">
+                  <div class="absolute right-0 z-10 -translate-y-1/2 top-1/2">
                     <img src="src/images/about/image-2.jpg" alt="about-image" />
                     <div
                       class="absolute -left-5 -top-5 -z-10 h-full w-full border border-primary border-opacity-10 bg-primary bg-opacity-5 backdrop-blur-[6px] dark:border-white dark:border-opacity-10 dark:bg-white dark:bg-opacity-10">
                     </div>
                   </div>
-                  <div class="absolute right-0 top-24 z-40">
+                  <div class="absolute right-0 z-40 top-24">
                     <svg width="72" height="38" viewBox="0 0 72 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M62.0035 2.04985C59.6808 1.76671 57.4524 2.70929 55.1508 4.68209C51.3631 7.92863 44.7908 9.54366 38.8668 4.69678C36.329 2.6204 34.117 2.29213 32.2894 2.59672C30.3972 2.91209 28.8057 3.92088 27.5547 4.75487C25.5734 6.07577 23.3915 7.46379 20.8786 7.78953C18.2847 8.12577 15.515 7.32034 12.3598 4.69105C9.71804 2.48955 7.45748 2.0661 5.72104 2.33325C3.94436 2.6066 2.56003 3.6273 1.76341 4.56877C1.40666 4.99037 0.775686 5.04295 0.354079 4.68621C-0.0675277 4.32946 -0.120109 3.69849 0.236635 3.27688C1.27334 2.05168 3.0643 0.71846 5.41692 0.356509C7.80979 -0.0116349 10.6326 0.648246 13.6402 3.1546C16.485 5.52529 18.7154 6.05321 20.6215 5.80612C22.6086 5.54854 24.4266 4.43657 26.4453 3.09078L27 3.92282L26.4453 3.09078C27.6943 2.25809 29.6028 1.0169 31.9606 0.623935C34.383 0.220203 37.1711 0.725274 40.1333 3.14886C45.1548 7.25733 50.6369 5.9169 53.8492 3.16356C56.3795 0.994798 59.1512 -0.312658 62.2455 0.0645503C65.3089 0.43799 68.4333 2.43425 71.7557 6.26783C72.1174 6.68518 72.0723 7.31674 71.655 7.67845C71.2376 8.04015 70.606 7.99504 70.2443 7.57769C67.0668 3.91125 64.3571 2.33677 62.0035 2.04985Z"
@@ -606,16 +606,16 @@
             <div class="-mx-4 flex flex-wrap items-center pt-[70px]">
               <div class="w-full px-4 lg:w-1/2">
                 <div class="relative z-30 mb-14 h-[490px] max-w-[600px] lg:mb-0">
-                  <div class="absolute left-0 top-0">
+                  <div class="absolute top-0 left-0">
                     <img src="src/images/about/image-1.jpg" alt="about-image" />
                   </div>
-                  <div class="absolute right-0 top-1/2 z-10 -translate-y-1/2">
+                  <div class="absolute right-0 z-10 -translate-y-1/2 top-1/2">
                     <img src="src/images/about/image-2.jpg" alt="about-image" />
                     <div
                       class="absolute -left-5 -top-5 -z-10 h-full w-full border border-primary border-opacity-10 bg-primary bg-opacity-5 backdrop-blur-[6px] dark:border-white dark:border-opacity-10 dark:bg-white dark:bg-opacity-10">
                     </div>
                   </div>
-                  <div class="absolute right-0 top-24 z-40">
+                  <div class="absolute right-0 z-40 top-24">
                     <svg width="72" height="38" viewBox="0 0 72 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M62.0035 2.04985C59.6808 1.76671 57.4524 2.70929 55.1508 4.68209C51.3631 7.92863 44.7908 9.54366 38.8668 4.69678C36.329 2.6204 34.117 2.29213 32.2894 2.59672C30.3972 2.91209 28.8057 3.92088 27.5547 4.75487C25.5734 6.07577 23.3915 7.46379 20.8786 7.78953C18.2847 8.12577 15.515 7.32034 12.3598 4.69105C9.71804 2.48955 7.45748 2.0661 5.72104 2.33325C3.94436 2.6066 2.56003 3.6273 1.76341 4.56877C1.40666 4.99037 0.775686 5.04295 0.354079 4.68621C-0.0675277 4.32946 -0.120109 3.69849 0.236635 3.27688C1.27334 2.05168 3.0643 0.71846 5.41692 0.356509C7.80979 -0.0116349 10.6326 0.648246 13.6402 3.1546C16.485 5.52529 18.7154 6.05321 20.6215 5.80612C22.6086 5.54854 24.4266 4.43657 26.4453 3.09078L27 3.92282L26.4453 3.09078C27.6943 2.25809 29.6028 1.0169 31.9606 0.623935C34.383 0.220203 37.1711 0.725274 40.1333 3.14886C45.1548 7.25733 50.6369 5.9169 53.8492 3.16356C56.3795 0.994798 59.1512 -0.312658 62.2455 0.0645503C65.3089 0.43799 68.4333 2.43425 71.7557 6.26783C72.1174 6.68518 72.0723 7.31674 71.655 7.67845C71.2376 8.04015 70.606 7.99504 70.2443 7.57769C67.0668 3.91125 64.3571 2.33677 62.0035 2.04985Z"
@@ -660,28 +660,27 @@
   <section id="team" class="pt-14 sm:pt-20 lg:pt-[130px]">
     <div class="px-4 xl:container">
       <!-- Section Title -->
-      <div class="wow fadeInUp relative mx-auto mb-12 pt-6 text-center md:mb-20 lg:pt-16" data-wow-delay=".2s">
+      <div class="relative pt-6 mx-auto mb-12 text-center wow fadeInUp md:mb-20 lg:pt-16" data-wow-delay=".2s">
         <span class="title"> OUR TEAM </span>
         <h2
           class="mx-auto mb-5 max-w-[620px] font-heading text-3xl font-semibold text-dark dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
-          Wanna Say Hi To The BackBone Of Eduhub Team?!
+          Wanna Say Hi To The BackBone Of Eduhub Community?!
         </h2>
         <p class="mx-auto max-w-[620px] text-base text-dark-text">
-          The people who're consistently pushing their limits to take Eduhub to next level.
+          The people who're Consistently Pushing Their Limits to Take Eduhub to Next Level.
         </p>
       </div>
 
-      <div class="-mx-4 flex flex-wrap justify-center">
+      <div class="flex flex-wrap justify-center -mx-4">
         <div class="w-full px-4 md:w-1/2 lg:w-1/4">
           <div class="wow fadeInUp group mx-auto mb-10 max-w-[300px] text-center xs:max-w-[370px]" data-wow-delay=".2s">
             <div class="relative mb-8 overflow-hidden rounded">
-              <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/3.png" alt="team-image"
-                class="w-full" />
+              <img src="/src/images/eduhub/3.png" alt="team-image" class="w-full" />
               <div
-                class="duration-300 absolute bottom-6 left-1/2 -translate-x-1/2 translate-y-10 opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">
+                class="absolute transition duration-300 -translate-x-1/2 translate-y-10 opacity-0 bottom-6 left-1/2 group-hover:translate-y-0 group-hover:opacity-100">
                 <div class="flex items-center justify-center space-x-3">
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M11.6667 11.2501H13.75L14.5834 7.91675H11.6667V6.25008C11.6667 5.39175 11.6667 4.58341 13.3334 4.58341H14.5834V1.78341C14.3117 1.74758 13.2859 1.66675 12.2025 1.66675C9.94004 1.66675 8.33337 3.04758 8.33337 5.58341V7.91675H5.83337V11.2501H8.33337V18.3334H11.6667V11.2501Z"
@@ -689,7 +688,7 @@
                     </svg>
                   </a>
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M18.4684 4.71327C17.8322 4.99468 17.1575 5.1795 16.4667 5.26161C17.1948 4.82613 17.7398 4.14078 18 3.33327C17.3167 3.73994 16.5675 4.02494 15.7867 4.17911C15.2622 3.61792 14.567 3.24574 13.8092 3.12043C13.0513 2.99511 12.2733 3.12368 11.5961 3.48615C10.9189 3.84862 10.3804 4.42468 10.0643 5.12477C9.74824 5.82486 9.67233 6.60976 9.84838 7.35744C8.46263 7.28798 7.10699 6.92788 5.86945 6.30049C4.63191 5.67311 3.54015 4.79248 2.66504 3.71577C2.35529 4.24781 2.19251 4.85263 2.19338 5.46827C2.19338 6.67661 2.80838 7.74411 3.74338 8.36911C3.19005 8.35169 2.6489 8.20226 2.16504 7.93327V7.97661C2.16521 8.78136 2.44368 9.56129 2.95325 10.1842C3.46282 10.807 4.17211 11.2345 4.96088 11.3941C4.44722 11.5333 3.90863 11.5538 3.38588 11.4541C3.60827 12.1468 4.04172 12.7526 4.62554 13.1867C5.20936 13.6208 5.91432 13.8614 6.64171 13.8749C5.91878 14.4427 5.09102 14.8624 4.20578 15.1101C3.32053 15.3577 2.39515 15.4285 1.48254 15.3183C3.07563 16.3428 4.93012 16.8867 6.82421 16.8849C13.235 16.8849 16.7409 11.5741 16.7409 6.96827C16.7409 6.81827 16.7367 6.66661 16.73 6.51827C17.4124 6.02508 18.0014 5.41412 18.4692 4.71411L18.4684 4.71327Z"
@@ -697,7 +696,7 @@
                     </svg>
                   </a>
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M5.78328 4.16677C5.78306 4.6088 5.60726 5.03263 5.29454 5.34504C4.98182 5.65744 4.55781 5.83282 4.11578 5.8326C3.67376 5.83238 3.24992 5.65657 2.93752 5.34386C2.62511 5.03114 2.44973 4.60713 2.44995 4.1651C2.45017 3.72307 2.62598 3.29924 2.9387 2.98683C3.25141 2.67443 3.67542 2.49905 4.11745 2.49927C4.55948 2.49949 4.98331 2.6753 5.29572 2.98801C5.60812 3.30073 5.78351 3.72474 5.78328 4.16677ZM5.83328 7.06677H2.49995V17.5001H5.83328V7.06677ZM11.1 7.06677H7.78328V17.5001H11.0666V12.0251C11.0666 8.9751 15.0416 8.69177 15.0416 12.0251V17.5001H18.3333V10.8918C18.3333 5.7501 12.45 5.94177 11.0666 8.46677L11.1 7.06677Z"
@@ -708,10 +707,10 @@
               </div>
             </div>
             <div>
-              <h3 class="mb-1 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl">
+              <h3 class="mb-1 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl">
                 Sahitya Roy
               </h3>
-              <p class="font-heading text-base text-dark-text">
+              <p class="text-base font-heading text-dark-text">
                 Co-Founder
               </p>
             </div>
@@ -721,13 +720,12 @@
           <div class="wow fadeInUp group mx-auto mb-10 max-w-[300px] text-center xs:max-w-[370px]"
             data-wow-delay=".25s">
             <div class="relative mb-8 overflow-hidden rounded">
-              <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/1.png" alt="team-image"
-                class="w-full" />
+              <img src="/src/images/eduhub/1.png" alt="team-image" class="w-full" />
               <div
-                class="duration-300 absolute bottom-6 left-1/2 -translate-x-1/2 translate-y-10 opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">
+                class="absolute transition duration-300 -translate-x-1/2 translate-y-10 opacity-0 bottom-6 left-1/2 group-hover:translate-y-0 group-hover:opacity-100">
                 <div class="flex items-center justify-center space-x-3">
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M11.6667 11.2501H13.75L14.5834 7.91675H11.6667V6.25008C11.6667 5.39175 11.6667 4.58341 13.3334 4.58341H14.5834V1.78341C14.3117 1.74758 13.2859 1.66675 12.2025 1.66675C9.94004 1.66675 8.33337 3.04758 8.33337 5.58341V7.91675H5.83337V11.2501H8.33337V18.3334H11.6667V11.2501Z"
@@ -735,7 +733,7 @@
                     </svg>
                   </a>
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M18.4684 4.71327C17.8322 4.99468 17.1575 5.1795 16.4667 5.26161C17.1948 4.82613 17.7398 4.14078 18 3.33327C17.3167 3.73994 16.5675 4.02494 15.7867 4.17911C15.2622 3.61792 14.567 3.24574 13.8092 3.12043C13.0513 2.99511 12.2733 3.12368 11.5961 3.48615C10.9189 3.84862 10.3804 4.42468 10.0643 5.12477C9.74824 5.82486 9.67233 6.60976 9.84838 7.35744C8.46263 7.28798 7.10699 6.92788 5.86945 6.30049C4.63191 5.67311 3.54015 4.79248 2.66504 3.71577C2.35529 4.24781 2.19251 4.85263 2.19338 5.46827C2.19338 6.67661 2.80838 7.74411 3.74338 8.36911C3.19005 8.35169 2.6489 8.20226 2.16504 7.93327V7.97661C2.16521 8.78136 2.44368 9.56129 2.95325 10.1842C3.46282 10.807 4.17211 11.2345 4.96088 11.3941C4.44722 11.5333 3.90863 11.5538 3.38588 11.4541C3.60827 12.1468 4.04172 12.7526 4.62554 13.1867C5.20936 13.6208 5.91432 13.8614 6.64171 13.8749C5.91878 14.4427 5.09102 14.8624 4.20578 15.1101C3.32053 15.3577 2.39515 15.4285 1.48254 15.3183C3.07563 16.3428 4.93012 16.8867 6.82421 16.8849C13.235 16.8849 16.7409 11.5741 16.7409 6.96827C16.7409 6.81827 16.7367 6.66661 16.73 6.51827C17.4124 6.02508 18.0014 5.41412 18.4692 4.71411L18.4684 4.71327Z"
@@ -743,7 +741,7 @@
                     </svg>
                   </a>
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M5.78328 4.16677C5.78306 4.6088 5.60726 5.03263 5.29454 5.34504C4.98182 5.65744 4.55781 5.83282 4.11578 5.8326C3.67376 5.83238 3.24992 5.65657 2.93752 5.34386C2.62511 5.03114 2.44973 4.60713 2.44995 4.1651C2.45017 3.72307 2.62598 3.29924 2.9387 2.98683C3.25141 2.67443 3.67542 2.49905 4.11745 2.49927C4.55948 2.49949 4.98331 2.6753 5.29572 2.98801C5.60812 3.30073 5.78351 3.72474 5.78328 4.16677ZM5.83328 7.06677H2.49995V17.5001H5.83328V7.06677ZM11.1 7.06677H7.78328V17.5001H11.0666V12.0251C11.0666 8.9751 15.0416 8.69177 15.0416 12.0251V17.5001H18.3333V10.8918C18.3333 5.7501 12.45 5.94177 11.0666 8.46677L11.1 7.06677Z"
@@ -754,10 +752,10 @@
               </div>
             </div>
             <div>
-              <h3 class="mb-1 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl">
+              <h3 class="mb-1 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl">
                 Priya Chandak
               </h3>
-              <p class="font-heading text-base text-dark-text">
+              <p class="text-base font-heading text-dark-text">
                 Co-Founder
               </p>
             </div>
@@ -766,13 +764,12 @@
         <div class="w-full px-4 md:w-1/2 lg:w-1/4">
           <div class="wow fadeInUp group mx-auto mb-10 max-w-[300px] text-center xs:max-w-[370px]" data-wow-delay=".3s">
             <div class="relative mb-8 overflow-hidden rounded">
-              <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/2.png" alt="team-image"
-                class="w-full" />
+              <img src="/src/images/eduhub/2.png" alt="team-image" class="w-full" />
               <div
-                class="duration-300 absolute bottom-6 left-1/2 -translate-x-1/2 translate-y-10 opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">
+                class="absolute transition duration-300 -translate-x-1/2 translate-y-10 opacity-0 bottom-6 left-1/2 group-hover:translate-y-0 group-hover:opacity-100">
                 <div class="flex items-center justify-center space-x-3">
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M11.6667 11.2501H13.75L14.5834 7.91675H11.6667V6.25008C11.6667 5.39175 11.6667 4.58341 13.3334 4.58341H14.5834V1.78341C14.3117 1.74758 13.2859 1.66675 12.2025 1.66675C9.94004 1.66675 8.33337 3.04758 8.33337 5.58341V7.91675H5.83337V11.2501H8.33337V18.3334H11.6667V11.2501Z"
@@ -780,7 +777,7 @@
                     </svg>
                   </a>
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M18.4684 4.71327C17.8322 4.99468 17.1575 5.1795 16.4667 5.26161C17.1948 4.82613 17.7398 4.14078 18 3.33327C17.3167 3.73994 16.5675 4.02494 15.7867 4.17911C15.2622 3.61792 14.567 3.24574 13.8092 3.12043C13.0513 2.99511 12.2733 3.12368 11.5961 3.48615C10.9189 3.84862 10.3804 4.42468 10.0643 5.12477C9.74824 5.82486 9.67233 6.60976 9.84838 7.35744C8.46263 7.28798 7.10699 6.92788 5.86945 6.30049C4.63191 5.67311 3.54015 4.79248 2.66504 3.71577C2.35529 4.24781 2.19251 4.85263 2.19338 5.46827C2.19338 6.67661 2.80838 7.74411 3.74338 8.36911C3.19005 8.35169 2.6489 8.20226 2.16504 7.93327V7.97661C2.16521 8.78136 2.44368 9.56129 2.95325 10.1842C3.46282 10.807 4.17211 11.2345 4.96088 11.3941C4.44722 11.5333 3.90863 11.5538 3.38588 11.4541C3.60827 12.1468 4.04172 12.7526 4.62554 13.1867C5.20936 13.6208 5.91432 13.8614 6.64171 13.8749C5.91878 14.4427 5.09102 14.8624 4.20578 15.1101C3.32053 15.3577 2.39515 15.4285 1.48254 15.3183C3.07563 16.3428 4.93012 16.8867 6.82421 16.8849C13.235 16.8849 16.7409 11.5741 16.7409 6.96827C16.7409 6.81827 16.7367 6.66661 16.73 6.51827C17.4124 6.02508 18.0014 5.41412 18.4692 4.71411L18.4684 4.71327Z"
@@ -788,7 +785,7 @@
                     </svg>
                   </a>
                   <a href="javascript:void(0)" name="social-icon" aria-label="social-icon"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-white border-opacity-10 bg-white bg-opacity-10 text-white backdrop-blur transition hover:border-transparent hover:bg-primary hover:bg-opacity-100">
+                    class="flex items-center justify-center w-10 h-10 text-white transition bg-white border border-white rounded-full border-opacity-10 bg-opacity-10 backdrop-blur hover:border-transparent hover:bg-primary hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M5.78328 4.16677C5.78306 4.6088 5.60726 5.03263 5.29454 5.34504C4.98182 5.65744 4.55781 5.83282 4.11578 5.8326C3.67376 5.83238 3.24992 5.65657 2.93752 5.34386C2.62511 5.03114 2.44973 4.60713 2.44995 4.1651C2.45017 3.72307 2.62598 3.29924 2.9387 2.98683C3.25141 2.67443 3.67542 2.49905 4.11745 2.49927C4.55948 2.49949 4.98331 2.6753 5.29572 2.98801C5.60812 3.30073 5.78351 3.72474 5.78328 4.16677ZM5.83328 7.06677H2.49995V17.5001H5.83328V7.06677ZM11.1 7.06677H7.78328V17.5001H11.0666V12.0251C11.0666 8.9751 15.0416 8.69177 15.0416 12.0251V17.5001H18.3333V10.8918C18.3333 5.7501 12.45 5.94177 11.0666 8.46677L11.1 7.06677Z"
@@ -799,10 +796,10 @@
               </div>
             </div>
             <div>
-              <h3 class="mb-1 font-heading text-xl font-medium text-dark dark:text-white sm:text-2xl">
+              <h3 class="mb-1 text-xl font-medium font-heading text-dark dark:text-white sm:text-2xl">
                 Shivank Kapur
               </h3>
-              <p class="font-heading text-base text-dark-text">
+              <p class="text-base font-heading text-dark-text">
                 Community Manager
               </p>
             </div>
@@ -817,7 +814,7 @@
   <section id="portfolio" class="pt-14 sm:pt-20 lg:pt-[130px]">
     <div class="px-4 xl:container">
       <!-- Section Title -->
-      <div class="wow fadeInUp relative mx-auto mb-12 pt-6 text-center md:mb-20 lg:pt-16" data-wow-delay=".2s">
+      <div class="relative pt-6 mx-auto mb-12 text-center wow fadeInUp md:mb-20 lg:pt-16" data-wow-delay=".2s">
         <span class="title"> PORTFOLIO </span>
         <h2
           class="mx-auto mb-5 max-w-[500px] font-heading text-3xl font-semibold text-dark dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
@@ -831,42 +828,42 @@
       </div>
 
       <div class="w-full">
-        <div class="portfolio-btn-wrapper wow fadeInUp mb-16 flex items-center justify-center overflow-x-auto pb-2"
+        <div class="flex items-center justify-center pb-2 mb-16 overflow-x-auto portfolio-btn-wrapper wow fadeInUp"
           data-wow-delay=".2s">
-          <button class="active whitespace-nowrap px-5 font-heading text-base text-dark dark:text-white"
+          <button class="px-5 text-base active whitespace-nowrap font-heading text-dark dark:text-white"
             data-filter="*">
             All
           </button>
-          <button class="whitespace-nowrap px-5 font-heading text-base text-dark dark:text-white"
+          <button class="px-5 text-base whitespace-nowrap font-heading text-dark dark:text-white"
             data-filter=".branding">
             25 College Roadshow
           </button>
-          <button class="whitespace-nowrap px-5 font-heading text-base text-dark dark:text-white"
+          <button class="px-5 text-base whitespace-nowrap font-heading text-dark dark:text-white"
             data-filter=".digital">
-            Digital Experiences
+            Online Presence
           </button>
-          <button class="whitespace-nowrap px-5 font-heading text-base text-dark dark:text-white" data-filter=".ecom">
-            eCommerce
+          <button class="px-5 text-base whitespace-nowrap font-heading text-dark dark:text-white" data-filter=".ecom">
+            Tech Events
           </button>
         </div>
 
-        <div class="portfolio-grid -mx-4 flex flex-wrap">
+        <div class="flex flex-wrap -mx-4 portfolio-grid">
           <div class="grid-sizer"></div>
-          <div class="grid-item ecom w-full px-4 lg:w-2/3">
-            <div class="wow fadeInUp group relative mb-10 overflow-hidden rounded" data-wow-delay=".2s">
-              <img src="src/images/portfolio/image-1.jpg" alt="portfolio-image" class="w-full" />
+          <div class="w-full px-4 grid-item ecom lg:w-2/3">
+            <div class="relative mb-10 overflow-hidden rounded wow fadeInUp group" data-wow-delay=".2s">
+              <img src="/src/images/eduhub/our event.png" alt="portfolio-image" class="w-full" />
 
               <div
                 class="duration-300 absolute bottom-8 left-5 flex translate-y-8 items-center justify-between rounded bg-[#000] bg-opacity-30 py-5 px-4 opacity-0 backdrop-blur-[30px] transition group-hover:translate-y-0 group-hover:opacity-100 sm:left-8 sm:px-6 lg:left-5 lg:px-4 xl:px-6 2xl:left-8">
-                <div class="border-r border-[#e9e9e9] border-opacity-30 pr-4 sm:pr-5 lg:pr-4 xl:pr-5">
-                  <h3 class="font-heading text-base font-medium text-white sm:text-xl lg:text-base xl:text-xl">
+                <!-- <div class="border-r border-[#e9e9e9] border-opacity-30 pr-4 sm:pr-5 lg:pr-4 xl:pr-5">
+                  <h3 class="text-base font-medium text-white font-heading sm:text-xl lg:text-base xl:text-xl">
                     Photo Retouching
                   </h3>
                   <p class="text-sm text-[#d9d9d9] sm:text-base lg:text-sm xl:text-base">
                     Branded Ecommerce
                   </p>
-                </div>
-                <div class="pl-4 sm:pl-5 lg:pl-4 xl:pl-5">
+                </div> -->
+                <!-- <div class="pl-4 sm:pl-5 lg:pl-4 xl:pl-5">
                   <a href="javascript:void(0)"
                     class="dark:hover:us-bg-primary flex h-10 w-10 items-center justify-center rounded-full bg-[#f8f8f8] bg-opacity-[15%] text-white hover:bg-primary hover:bg-opacity-100 dark:hover:bg-opacity-100">
                     <svg width="20" height="20" viewBox="0 0 20 20" class="fill-current">
@@ -874,18 +871,18 @@
                         d="M13.4767 9.16689L9.00671 4.69689L10.185 3.51855L16.6667 10.0002L10.185 16.4819L9.00671 15.3036L13.4767 10.8336H3.33337V9.16689H13.4767Z" />
                     </svg>
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
-          <div class="grid-item branding w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="wow fadeInUp group relative mb-10 overflow-hidden rounded" data-wow-delay=".25s">
-              <img src="src/images/portfolio/image-2.jpg" alt="portfolio-image" class="w-full" />
+          <div class="w-full px-4 grid-item branding md:w-1/2 lg:w-1/3">
+            <div class="relative mb-10 overflow-hidden rounded wow fadeInUp group" data-wow-delay=".25s">
+              <img src="/src/images/eduhub/photu.png" alt="portfolio-image" class="w-full" />
 
-              <div
+              <!-- <div
                 class="duration-300 absolute bottom-8 left-5 flex translate-y-8 items-center justify-between rounded bg-[#000] bg-opacity-30 py-5 px-4 opacity-0 backdrop-blur-[30px] transition group-hover:translate-y-0 group-hover:opacity-100 sm:left-8 sm:px-6 lg:left-5 lg:px-4 xl:px-6 2xl:left-8">
                 <div class="border-r border-[#e9e9e9] border-opacity-30 pr-4 sm:pr-5 lg:pr-4 xl:pr-5">
-                  <h3 class="font-heading text-base font-medium text-white sm:text-xl lg:text-base xl:text-xl">
+                  <h3 class="text-base font-medium text-white font-heading sm:text-xl lg:text-base xl:text-xl">
                     Photo Retouching
                   </h3>
                   <p class="text-sm text-[#d9d9d9] sm:text-base lg:text-sm xl:text-base">
@@ -901,17 +898,17 @@
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
-          <div class="grid-item digital w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="wow fadeInUp group relative mb-10 overflow-hidden rounded" data-wow-delay=".3s">
-              <img src="src/images/portfolio/image-3.jpg" alt="portfolio-image" class="w-full" />
+          <div class="w-full px-4 grid-item digital md:w-1/2 lg:w-1/3">
+            <div class="relative mb-10 overflow-hidden rounded wow fadeInUp group" data-wow-delay=".3s">
+              <img src="/src/images/eduhub/pic.png" alt="portfolio-image" class="w-full" />
 
-              <div
+              <!-- <div
                 class="duration-300 absolute bottom-8 left-5 flex translate-y-8 items-center justify-between rounded bg-[#000] bg-opacity-30 py-5 px-4 opacity-0 backdrop-blur-[30px] transition group-hover:translate-y-0 group-hover:opacity-100 sm:left-8 sm:px-6 lg:left-5 lg:px-4 xl:px-6 2xl:left-8">
                 <div class="border-r border-[#e9e9e9] border-opacity-30 pr-4 sm:pr-5 lg:pr-4 xl:pr-5">
-                  <h3 class="font-heading text-base font-medium text-white sm:text-xl lg:text-base xl:text-xl">
+                  <h3 class="text-base font-medium text-white font-heading sm:text-xl lg:text-base xl:text-xl">
                     Photo Retouching
                   </h3>
                   <p class="text-sm text-[#d9d9d9] sm:text-base lg:text-sm xl:text-base">
@@ -927,17 +924,17 @@
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
-          <div class="grid-item ecom w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="wow fadeInUp group relative mb-10 overflow-hidden rounded" data-wow-delay=".35s">
-              <img src="src/images/portfolio/image-4.jpg" alt="portfolio-image" class="w-full" />
+          <div class="w-full px-4 grid-item ecom md:w-1/2 lg:w-1/3">
+            <div class="relative mb-10 overflow-hidden rounded wow fadeInUp group" data-wow-delay=".35s">
+              <img src="/src/images/eduhub/eduhub community.png" alt="portfolio-image" class="w-full" />
 
-              <div
+              <!-- <div
                 class="duration-300 absolute bottom-8 left-5 flex translate-y-8 items-center justify-between rounded bg-[#000] bg-opacity-30 py-5 px-4 opacity-0 backdrop-blur-[30px] transition group-hover:translate-y-0 group-hover:opacity-100 sm:left-8 sm:px-6 lg:left-5 lg:px-4 xl:px-6 2xl:left-8">
                 <div class="border-r border-[#e9e9e9] border-opacity-30 pr-4 sm:pr-5 lg:pr-4 xl:pr-5">
-                  <h3 class="font-heading text-base font-medium text-white sm:text-xl lg:text-base xl:text-xl">
+                  <h3 class="text-base font-medium text-white font-heading sm:text-xl lg:text-base xl:text-xl">
                     Photo Retouching
                   </h3>
                   <p class="text-sm text-[#d9d9d9] sm:text-base lg:text-sm xl:text-base">
@@ -953,12 +950,12 @@
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
 
-        <div class="wow fadeInUp w-full pt-10 text-center" data-wow-delay=".2s">
+        <div class="w-full pt-10 text-center wow fadeInUp" data-wow-delay=".2s">
           <a href="javascript:void(0)"
             class="inline-flex items-center rounded bg-primary py-[14px] px-8 font-heading text-base text-white hover:bg-opacity-90">
             See More Projects
@@ -979,7 +976,7 @@
   <section id="testimonial" class="pt-14 sm:pt-20 lg:pt-[130px]">
     <div class="px-4 xl:container">
       <!-- Section Title -->
-      <div class="wow fadeInUp relative mx-auto mb-12 pt-6 text-center md:mb-20 lg:pt-16" data-wow-delay=".2s">
+      <div class="relative pt-6 mx-auto mb-12 text-center wow fadeInUp md:mb-20 lg:pt-16" data-wow-delay=".2s">
         <span class="title"> Testimonial </span>
         <h2
           class="mx-auto mb-5 max-w-[450px] font-heading text-3xl font-semibold text-dark dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
@@ -995,9 +992,9 @@
           class="wow fadeInUp relative z-10 overflow-hidden rounded bg-cover bg-center px-10 pt-[60px] pb-28 drop-shadow-light dark:drop-shadow-none sm:px-14 md:p-[70px] md:pb-28 lg:pb-[70px]"
           data-wow-delay=".3s">
           <div
-            class="absolute top-0 left-0 -z-10 h-full w-full bg-cover bg-center opacity-10 dark:opacity-40 bg-noise-pattern">
+            class="absolute top-0 left-0 w-full h-full bg-center bg-cover -z-10 opacity-10 dark:opacity-40 bg-noise-pattern">
           </div>
-          <div class="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2">
+          <div class="absolute bottom-0 -translate-x-1/2 left-1/2 -z-10">
             <svg width="1174" height="560" viewBox="0 0 1174 560" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g opacity="0.4" filter="url(#filter0_f_41_257)">
                 <rect x="450.531" y="279" width="272.933" height="328.051" fill="url(#paint0_linear_41_257)" />
@@ -1019,16 +1016,16 @@
           </div>
           <div class="testimonial-active">
             <div class="testimonial-item">
-              <div class="-mx-4 flex flex-wrap items-center">
+              <div class="flex flex-wrap items-center -mx-4">
                 <div class="order-last w-full px-4 lg:order-first lg:w-1/2">
                   <div class="text-center lg:text-left">
-                    <p class="mb-9 font-heading text-base font-light text-dark-text lg:text-lg xl:text-2xl">
+                    <p class="text-base font-light mb-9 font-heading text-dark-text lg:text-lg xl:text-2xl">
                       “Eduhub is really a lovely community. I’ve learned many skills and networked with many people
                       because of
                       the community. Keep up the good work
                     </p>
 
-                    <h3 class="mb-1 font-heading text-xl text-dark dark:text-white">
+                    <h3 class="mb-1 text-xl font-heading text-dark dark:text-white">
                       Anuradha Jadon
                     </h3>
                     <p class="text-base text-dark-text">
@@ -1038,14 +1035,13 @@
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                   <div class="lg:mr-0 relative mx-auto mb-9 h-[420px] w-full max-w-[420px] lg:mb-0">
-                    <div class="absolute right-5 top-5 z-10">
-                      <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/anuradhaJadon.jpeg"
-                        alt="testimonial-image" />
+                    <div class="absolute z-10 right-5 top-5">
+                      <img src="/src/images/eduhub/anuradhaJadon.jpeg" alt="testimonial-image" />
                       <div
                         class="absolute -right-5 -top-5 -z-10 h-full w-full border border-primary border-opacity-10 bg-primary bg-opacity-5 backdrop-blur-[6px] dark:border-white dark:border-opacity-10 dark:bg-white dark:bg-opacity-10">
                       </div>
                     </div>
-                    <div class="absolute -right-4 bottom-20 z-40">
+                    <div class="absolute z-40 -right-4 bottom-20">
                       <svg width="72" height="38" viewBox="0 0 72 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M62.0035 2.04985C59.6808 1.76671 57.4524 2.70929 55.1508 4.68209C51.3631 7.92863 44.7908 9.54366 38.8668 4.69678C36.329 2.6204 34.117 2.29213 32.2894 2.59672C30.3972 2.91209 28.8057 3.92088 27.5547 4.75487C25.5734 6.07577 23.3915 7.46379 20.8786 7.78953C18.2847 8.12577 15.515 7.32034 12.3598 4.69105C9.71804 2.48955 7.45748 2.0661 5.72104 2.33325C3.94436 2.6066 2.56003 3.6273 1.76341 4.56877C1.40666 4.99037 0.775686 5.04295 0.354079 4.68621C-0.0675277 4.32946 -0.120109 3.69849 0.236635 3.27688C1.27334 2.05168 3.0643 0.71846 5.41692 0.356509C7.80979 -0.0116349 10.6326 0.648246 13.6402 3.1546C16.485 5.52529 18.7154 6.05321 20.6215 5.80612C22.6086 5.54854 24.4266 4.43657 26.4453 3.09078L27 3.92282L26.4453 3.09078C27.6943 2.25809 29.6028 1.0169 31.9606 0.623935C34.383 0.220203 37.1711 0.725274 40.1333 3.14886C45.1548 7.25733 50.6369 5.9169 53.8492 3.16356C56.3795 0.994798 59.1512 -0.312658 62.2455 0.0645503C65.3089 0.43799 68.4333 2.43425 71.7557 6.26783C72.1174 6.68518 72.0723 7.31674 71.655 7.67845C71.2376 8.04015 70.606 7.99504 70.2443 7.57769C67.0668 3.91125 64.3571 2.33677 62.0035 2.04985Z"
@@ -1066,16 +1062,16 @@
               </div>
             </div>
             <div class="testimonial-item">
-              <div class="-mx-4 flex flex-wrap items-center">
+              <div class="flex flex-wrap items-center -mx-4">
                 <div class="order-last w-full px-4 lg:order-first lg:w-1/2">
                   <div class="text-center lg:text-left">
-                    <p class="mb-9 font-heading text-base font-light text-dark-text lg:text-lg xl:text-2xl">
+                    <p class="text-base font-light mb-9 font-heading text-dark-text lg:text-lg xl:text-2xl">
                       “I can't express how grateful I am to be a part of this incredible community. It's not just a
                       group; it's a support system, a source of inspiration, and a place to thrive. They are very good
                       at commitments and deliver some amazing results to the organization.
                     </p>
 
-                    <h3 class="mb-1 font-heading text-xl text-dark dark:text-white">
+                    <h3 class="mb-1 text-xl font-heading text-dark dark:text-white">
                       Sounak Ghosh
                     </h3>
                     <p class="text-base text-dark-text">
@@ -1085,14 +1081,13 @@
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                   <div class="lg:mr-0 relative mx-auto mb-9 h-[420px] w-full max-w-[420px] lg:mb-0">
-                    <div class="absolute right-5 top-5 z-10">
-                      <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/eduhub/IMG_1459.JPG"
-                        alt="testimonial-image" />
+                    <div class="absolute z-10 right-5 top-5">
+                      <img src="/src/images/eduhub/IMG_1459.JPG" alt="testimonial-image" />
                       <div
                         class="absolute -right-5 -top-5 -z-10 h-full w-full border border-primary border-opacity-10 bg-primary bg-opacity-5 backdrop-blur-[6px] dark:border-white dark:border-opacity-10 dark:bg-white dark:bg-opacity-10">
                       </div>
                     </div>
-                    <div class="absolute -right-4 bottom-20 z-40">
+                    <div class="absolute z-40 -right-4 bottom-20">
                       <svg width="72" height="38" viewBox="0 0 72 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M62.0035 2.04985C59.6808 1.76671 57.4524 2.70929 55.1508 4.68209C51.3631 7.92863 44.7908 9.54366 38.8668 4.69678C36.329 2.6204 34.117 2.29213 32.2894 2.59672C30.3972 2.91209 28.8057 3.92088 27.5547 4.75487C25.5734 6.07577 23.3915 7.46379 20.8786 7.78953C18.2847 8.12577 15.515 7.32034 12.3598 4.69105C9.71804 2.48955 7.45748 2.0661 5.72104 2.33325C3.94436 2.6066 2.56003 3.6273 1.76341 4.56877C1.40666 4.99037 0.775686 5.04295 0.354079 4.68621C-0.0675277 4.32946 -0.120109 3.69849 0.236635 3.27688C1.27334 2.05168 3.0643 0.71846 5.41692 0.356509C7.80979 -0.0116349 10.6326 0.648246 13.6402 3.1546C16.485 5.52529 18.7154 6.05321 20.6215 5.80612C22.6086 5.54854 24.4266 4.43657 26.4453 3.09078L27 3.92282L26.4453 3.09078C27.6943 2.25809 29.6028 1.0169 31.9606 0.623935C34.383 0.220203 37.1711 0.725274 40.1333 3.14886C45.1548 7.25733 50.6369 5.9169 53.8492 3.16356C56.3795 0.994798 59.1512 -0.312658 62.2455 0.0645503C65.3089 0.43799 68.4333 2.43425 71.7557 6.26783C72.1174 6.68518 72.0723 7.31674 71.655 7.67845C71.2376 8.04015 70.606 7.99504 70.2443 7.57769C67.0668 3.91125 64.3571 2.33677 62.0035 2.04985Z"
@@ -1134,103 +1129,81 @@
         </p>
       </div>
       <div class="border-b pb-24 dark:border-[#2E333D]">
-        <div class="wow fadeInUp -mx-4 flex flex-wrap" data-wow-delay=".2s">
+        <div class="flex flex-wrap -mx-4 wow fadeInUp" data-wow-delay=".2s">
           <div class="w-full px-4">
             <div class="flex flex-wrap items-center justify-center">
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/Nordek white logo.svg"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/Nordek white logo.svg" alt="image"
+                  class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/filecoin.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/filecoin.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img
-                  src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/logo-horizontal-dark (1).svg"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/logo-horizontal-dark (1).svg" alt="image"
+                  class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/ennnnnnn.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/ennnnnnn.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img
-                  src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/quine-logo-white (1).svg"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/quine-logo-white (1).svg" alt="image"
+                  class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/fffffffffff.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/fffffffffff.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img
-                  src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/png-transparent-github-book-github-white-black-git-removebg-preview.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/png-transparent-github-book-github-white-black-git-removebg-preview.png"
+                  alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/pp.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/pp.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/quill.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/quill.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/gfg.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/gfg.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/dev.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/dev.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/covalent.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/covalent.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/azdevlogonew.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/azdevlogonew.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/ineuron-logo.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/ineuron-logo.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/solana.svg" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/solana.svg" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/microsoft.png"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/microsoft.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/postman.svg" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/postman.svg" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/replit.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/replit.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/rrr.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/rrr.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/data protocol.jpeg"
-                  alt="image" class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/data protocol.jpeg" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/lumos.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/lumos.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/spark.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/spark.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
               <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                <img src="/Users/shivankkapur/Web Development/EduHub Website/src/images/collabs/h2s.png" alt="image"
-                  class="hidden h-10 w-full dark:block" />
+                <img src="/src/images/collabs/h2s.png" alt="image" class="hidden w-full h-10 dark:block" />
               </a>
 
             </div>
@@ -1245,7 +1218,7 @@
   <!-- <section id="pricing" class="pt-14 sm:pt-20 lg:pt-[130px]">
     <div class="px-4 xl:container">
       <!-- Section Title -->
-  <!-- <div class="wow fadeInUp relative mb-12 w-full pt-10 text-center md:mb-20 lg:pt-16" data-wow-delay=".2s">
+  <!-- <div class="relative w-full pt-10 mb-12 text-center wow fadeInUp md:mb-20 lg:pt-16" data-wow-delay=".2s">
         <span class="title whitespace-nowrap"> PRICING PLANS </span>
         <h2
           class="mx-auto mb-5 max-w-[600px] font-heading text-3xl font-semibold text-dark dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
@@ -1261,9 +1234,9 @@
       <div
         class="relative z-10 flex flex-wrap justify-center overflow-hidden rounded drop-shadow-light dark:drop-shadow-none">
         <div
-          class="absolute top-0 left-0 -z-10 h-full w-full bg-cover bg-center opacity-10 dark:opacity-40 bg-noise-pattern">
+          class="absolute top-0 left-0 w-full h-full bg-center bg-cover -z-10 opacity-10 dark:opacity-40 bg-noise-pattern">
         </div>
-        <div class="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2">
+        <div class="absolute bottom-0 -translate-x-1/2 left-1/2 -z-10">
           <svg width="1174" height="560" viewBox="0 0 1174 560" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.4" filter="url(#filter0_f_41_257)">
               <rect x="450.531" y="279" width="272.933" height="328.051" fill="url(#paint0_linear_41_257)" />
@@ -1284,9 +1257,9 @@
           </svg>
         </div>
         <div class="w-full sm:w-1/2 lg:w-1/3">
-          <div class="wow fadeInUp pt-10 pb-20 text-center" data-wow-delay=".2s">
+          <div class="pt-10 pb-20 text-center wow fadeInUp" data-wow-delay=".2s">
             <div class="border-b dark:border-[#2E333D]">
-              <h3 class="mb-2 font-heading text-3xl font-medium text-dark dark:text-white">
+              <h3 class="mb-2 text-3xl font-medium font-heading text-dark dark:text-white">
                 Free
               </h3>
               <p class="pb-10 text-base text-dark-text">
@@ -1295,7 +1268,7 @@
             </div>
             <div class="border-b py-10 dark:border-[#2E333D]">
               <h3
-                class="mb-6 flex items-end justify-center pt-2 font-heading text-base font-medium text-dark dark:text-white">
+                class="flex items-end justify-center pt-2 mb-6 text-base font-medium font-heading text-dark dark:text-white">
                 $ <sup class="-mb-2 text-[55px]"> 0 </sup>
                 /month
               </h3>
@@ -1364,9 +1337,9 @@
           </div>
         </div>
         <div class="w-full dark:border-[#2E333D] sm:w-1/2 sm:border-l lg:w-1/3 lg:border-x">
-          <div class="wow fadeInUp pt-10 pb-20 text-center" data-wow-delay=".3s">
+          <div class="pt-10 pb-20 text-center wow fadeInUp" data-wow-delay=".3s">
             <div class="border-b dark:border-[#2E333D]">
-              <h3 class="mb-2 font-heading text-3xl font-medium text-dark dark:text-white">
+              <h3 class="mb-2 text-3xl font-medium font-heading text-dark dark:text-white">
                 Basic
               </h3>
               <p class="pb-10 text-base text-dark-text">
@@ -1375,7 +1348,7 @@
             </div>
             <div class="border-b py-10 dark:border-[#2E333D]">
               <h3
-                class="mb-6 flex items-end justify-center pt-2 font-heading text-base font-medium text-dark dark:text-white">
+                class="flex items-end justify-center pt-2 mb-6 text-base font-medium font-heading text-dark dark:text-white">
                 $ <sup class="-mb-2 text-[55px]"> 29 </sup>
                 /month
               </h3>
@@ -1444,9 +1417,9 @@
           </div>
         </div>
         <div class="w-full sm:w-1/2 lg:w-1/3">
-          <div class="wow fadeInUp pt-10 pb-20 text-center" data-wow-delay=".4s">
+          <div class="pt-10 pb-20 text-center wow fadeInUp" data-wow-delay=".4s">
             <div class="border-b dark:border-[#2E333D]">
-              <h3 class="mb-2 font-heading text-3xl font-medium text-dark dark:text-white">
+              <h3 class="mb-2 text-3xl font-medium font-heading text-dark dark:text-white">
                 Premium
               </h3>
               <p class="pb-10 text-base text-dark-text">
@@ -1455,7 +1428,7 @@
             </div>
             <div class="border-b py-10 dark:border-[#2E333D]">
               <h3
-                class="mb-6 flex items-end justify-center pt-2 font-heading text-base font-medium text-dark dark:text-white">
+                class="flex items-end justify-center pt-2 mb-6 text-base font-medium font-heading text-dark dark:text-white">
                 $ <sup class="-mb-2 text-[55px]"> 99 </sup>
                 /month
               </h3>
@@ -1526,7 +1499,7 @@
       </div>
 
       <div class="pt-12 text-center">
-        <h3 class="mb-5 font-heading text-xl font-medium text-dark dark:text-white sm:text-3xl">
+        <h3 class="mb-5 text-xl font-medium font-heading text-dark dark:text-white sm:text-3xl">
           Looking for a company solution?
         </h3>
         <p class="text-base text-dark-text">
@@ -1546,135 +1519,137 @@
         <span class="title"> BLOGS </span>
         <h2
           class="mb-5 font-heading text-3xl font-semibold text-dark dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
-          Latest News & Articles From Our Blog
+          Give a Read To Some Of Our Latest Articles!
         </h2>
         <p class="text-base text-dark-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-          convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-          ante in maximus.
+          Below Given Our Some Of The Blogs Written about Different Technologies Like- Open Source, Blockchain
+          Development, Web Development, etc.
         </p>
       </div>
 
       <div class="w-full border-b pb-20 dark:border-[#2E333D]">
-        <div class="-mx-4 flex flex-wrap">
+        <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="wow fadeInUp mb-10" data-wow-delay=".2s">
+            <div class="mb-10 wow fadeInUp" data-wow-delay=".2s">
               <div class="relative mb-8 overflow-hidden rounded">
-                <a href="javascript:void(0)" class="block">
-                  <img src="src/images/blog/image-1.jpg" alt="blog-image" class="w-full" />
+                <a href="https://eduhubcommunity.hashnode.dev/eduhub-community-college-roadshow-comes-to-five-indian-cities"
+                  class="block">
+                  <img src="/src/images/eduhub/pr.png" alt="blog-image" class="w-full" />
                 </a>
                 <span
                   class="absolute top-5 left-5 rounded bg-primary py-[6px] px-4 font-heading text-sm font-medium text-white">
-                  Online Business
+                  25 College Roadshow
                 </span>
               </div>
               <div>
-                <div class="mb-4 flex items-center">
-                  <p class="flex items-center pr-5 font-heading text-base text-dark-text">
+                <div class="flex items-center mb-4">
+                  <p class="flex items-center pr-5 text-base font-heading text-dark-text">
                     <span class="pr-2">
                       <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
                         <path
                           d="M15 16.5H13.5V15C13.5 14.4033 13.2629 13.831 12.841 13.409C12.419 12.9871 11.8467 12.75 11.25 12.75H6.75C6.15326 12.75 5.58097 12.9871 5.15901 13.409C4.73705 13.831 4.5 14.4033 4.5 15V16.5H3V15C3 14.0054 3.39509 13.0516 4.09835 12.3484C4.80161 11.6451 5.75544 11.25 6.75 11.25H11.25C12.2446 11.25 13.1984 11.6451 13.9016 12.3484C14.6049 13.0516 15 14.0054 15 15V16.5ZM9 9.75C8.40905 9.75 7.82389 9.63361 7.27792 9.40746C6.73196 9.18131 6.23588 8.84984 5.81802 8.43198C5.40015 8.01412 5.06869 7.51804 4.84254 6.97208C4.6164 6.42611 4.5 5.84095 4.5 5.25C4.5 4.65905 4.6164 4.07389 4.84254 3.52793C5.06869 2.98196 5.40015 2.48588 5.81802 2.06802C6.23588 1.65016 6.73196 1.31869 7.27792 1.09254C7.82389 0.866396 8.40905 0.75 9 0.75C10.1935 0.75 11.3381 1.22411 12.182 2.06802C13.0259 2.91193 13.5 4.05653 13.5 5.25C13.5 6.44348 13.0259 7.58807 12.182 8.43198C11.3381 9.2759 10.1935 9.75 9 9.75ZM9 8.25C9.79565 8.25 10.5587 7.93393 11.1213 7.37132C11.6839 6.80871 12 6.04565 12 5.25C12 4.45435 11.6839 3.69129 11.1213 3.12868C10.5587 2.56607 9.79565 2.25 9 2.25C8.20435 2.25 7.44129 2.56607 6.87868 3.12868C6.31607 3.69129 6 4.45435 6 5.25C6 6.04565 6.31607 6.80871 6.87868 7.37132C7.44129 7.93393 8.20435 8.25 9 8.25Z" />
                       </svg>
                     </span>
-                    Musharof Chy
+                    Shrishti Mishra
                   </p>
-                  <p class="flex items-center font-heading text-base text-dark-text">
+                  <p class="flex items-center text-base font-heading text-dark-text">
                     <span class="pr-2">
                       <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
                         <path
                           d="M12.75 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 2.80109 16.5 3V15C16.5 15.1989 16.421 15.3897 16.2803 15.5303C16.1397 15.671 15.9489 15.75 15.75 15.75H2.25C2.05109 15.75 1.86032 15.671 1.71967 15.5303C1.57902 15.3897 1.5 15.1989 1.5 15V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902 2.05109 2.25 2.25 2.25H5.25V0.75H6.75V2.25H11.25V0.75H12.75V2.25ZM11.25 3.75H6.75V5.25H5.25V3.75H3V6.75H15V3.75H12.75V5.25H11.25V3.75ZM15 8.25H3V14.25H15V8.25Z" />
                       </svg>
                     </span>
-                    25 Dec, 2025
+                    18 Oct, 2023
                   </p>
                 </div>
                 <h3>
-                  <a href="javascript:void(0)"
-                    class="font-heading text-xl font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary md:text-2xl lg:text-xl xl:text-2xl">
-                    Free advertising for your online business
+                  <a href="https://eduhubcommunity.hashnode.dev/eduhub-community-college-roadshow-comes-to-five-indian-cities"
+                    class="text-xl font-medium font-heading text-dark hover:text-primary dark:text-white dark:hover:text-primary md:text-2xl lg:text-xl xl:text-2xl">
+                    Eduhub Community Presents: Unveiling the Future: Web3, Web Development, and Open-Source College
+                    Roadshow Comes to Five Indian Cities
                   </a>
                 </h3>
               </div>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="wow fadeInUp mb-10" data-wow-delay=".3s">
+            <div class="mb-10 wow fadeInUp" data-wow-delay=".3s">
               <div class="relative mb-8 overflow-hidden rounded">
-                <a href="javascript:void(0)" class="block">
-                  <img src="src/images/blog/image-2.jpg" alt="blog-image" class="w-full" />
+                <a href="https://eduhubcommunity.hashnode.dev/integrating-web3-with-traditional-web-apps" class="block">
+                  <img src="/src/images/eduhub/image hai.png" alt="blog-image" class="w-full" />
                 </a>
                 <span
                   class="absolute top-5 left-5 rounded bg-primary py-[6px] px-4 font-heading text-sm font-medium text-white">
-                  Ui/Ux Design
+                  Web3
                 </span>
               </div>
               <div>
-                <div class="mb-4 flex items-center">
-                  <p class="flex items-center pr-5 font-heading text-base text-dark-text">
+                <div class="flex items-center mb-4">
+                  <p class="flex items-center pr-5 text-base font-heading text-dark-text">
                     <span class="pr-2">
                       <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
                         <path
                           d="M15 16.5H13.5V15C13.5 14.4033 13.2629 13.831 12.841 13.409C12.419 12.9871 11.8467 12.75 11.25 12.75H6.75C6.15326 12.75 5.58097 12.9871 5.15901 13.409C4.73705 13.831 4.5 14.4033 4.5 15V16.5H3V15C3 14.0054 3.39509 13.0516 4.09835 12.3484C4.80161 11.6451 5.75544 11.25 6.75 11.25H11.25C12.2446 11.25 13.1984 11.6451 13.9016 12.3484C14.6049 13.0516 15 14.0054 15 15V16.5ZM9 9.75C8.40905 9.75 7.82389 9.63361 7.27792 9.40746C6.73196 9.18131 6.23588 8.84984 5.81802 8.43198C5.40015 8.01412 5.06869 7.51804 4.84254 6.97208C4.6164 6.42611 4.5 5.84095 4.5 5.25C4.5 4.65905 4.6164 4.07389 4.84254 3.52793C5.06869 2.98196 5.40015 2.48588 5.81802 2.06802C6.23588 1.65016 6.73196 1.31869 7.27792 1.09254C7.82389 0.866396 8.40905 0.75 9 0.75C10.1935 0.75 11.3381 1.22411 12.182 2.06802C13.0259 2.91193 13.5 4.05653 13.5 5.25C13.5 6.44348 13.0259 7.58807 12.182 8.43198C11.3381 9.2759 10.1935 9.75 9 9.75ZM9 8.25C9.79565 8.25 10.5587 7.93393 11.1213 7.37132C11.6839 6.80871 12 6.04565 12 5.25C12 4.45435 11.6839 3.69129 11.1213 3.12868C10.5587 2.56607 9.79565 2.25 9 2.25C8.20435 2.25 7.44129 2.56607 6.87868 3.12868C6.31607 3.69129 6 4.45435 6 5.25C6 6.04565 6.31607 6.80871 6.87868 7.37132C7.44129 7.93393 8.20435 8.25 9 8.25Z" />
                       </svg>
                     </span>
-                    Musharof Chy
+                    Shrishti Mishra
                   </p>
-                  <p class="flex items-center font-heading text-base text-dark-text">
+                  <p class="flex items-center text-base font-heading text-dark-text">
                     <span class="pr-2">
                       <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
                         <path
                           d="M12.75 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 2.80109 16.5 3V15C16.5 15.1989 16.421 15.3897 16.2803 15.5303C16.1397 15.671 15.9489 15.75 15.75 15.75H2.25C2.05109 15.75 1.86032 15.671 1.71967 15.5303C1.57902 15.3897 1.5 15.1989 1.5 15V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902 2.05109 2.25 2.25 2.25H5.25V0.75H6.75V2.25H11.25V0.75H12.75V2.25ZM11.25 3.75H6.75V5.25H5.25V3.75H3V6.75H15V3.75H12.75V5.25H11.25V3.75ZM15 8.25H3V14.25H15V8.25Z" />
                       </svg>
                     </span>
-                    19 Mar, 2025
+                    10 Oct, 2023
                   </p>
                 </div>
                 <h3>
-                  <a href="javascript:void(0)"
-                    class="font-heading text-xl font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary md:text-2xl lg:text-xl xl:text-2xl">
-                    9 simple ways to improve your design skills
+                  <a href="https://eduhubcommunity.hashnode.dev/integrating-web3-with-traditional-web-apps"
+                    class="text-xl font-medium font-heading text-dark hover:text-primary dark:text-white dark:hover:text-primary md:text-2xl lg:text-xl xl:text-2xl">
+                    Integrating Web3 With Traditional Web Apps
                   </a>
                 </h3>
               </div>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="wow fadeInUp mb-10" data-wow-delay=".4s">
+            <div class="mb-10 wow fadeInUp" data-wow-delay=".4s">
               <div class="relative mb-8 overflow-hidden rounded">
-                <a href="javascript:void(0)" class="block">
-                  <img src="src/images/blog/image-3.jpg" alt="blog-image" class="w-full" />
+                <a href="https://eduhubcommunity.hashnode.dev/open-source-licenses-legal-considerations-for-developers"
+                  class="block">
+                  <img src="/src/images/eduhub/open source.png" alt="blog-image" class="w-full" />
                 </a>
                 <span
                   class="absolute top-5 left-5 rounded bg-primary py-[6px] px-4 font-heading text-sm font-medium text-white">
-                  Web Development
+                  Open Source
                 </span>
               </div>
               <div>
-                <div class="mb-4 flex items-center">
-                  <p class="flex items-center pr-5 font-heading text-base text-dark-text">
+                <div class="flex items-center mb-4">
+                  <p class="flex items-center pr-5 text-base font-heading text-dark-text">
                     <span class="pr-2">
                       <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
                         <path
                           d="M15 16.5H13.5V15C13.5 14.4033 13.2629 13.831 12.841 13.409C12.419 12.9871 11.8467 12.75 11.25 12.75H6.75C6.15326 12.75 5.58097 12.9871 5.15901 13.409C4.73705 13.831 4.5 14.4033 4.5 15V16.5H3V15C3 14.0054 3.39509 13.0516 4.09835 12.3484C4.80161 11.6451 5.75544 11.25 6.75 11.25H11.25C12.2446 11.25 13.1984 11.6451 13.9016 12.3484C14.6049 13.0516 15 14.0054 15 15V16.5ZM9 9.75C8.40905 9.75 7.82389 9.63361 7.27792 9.40746C6.73196 9.18131 6.23588 8.84984 5.81802 8.43198C5.40015 8.01412 5.06869 7.51804 4.84254 6.97208C4.6164 6.42611 4.5 5.84095 4.5 5.25C4.5 4.65905 4.6164 4.07389 4.84254 3.52793C5.06869 2.98196 5.40015 2.48588 5.81802 2.06802C6.23588 1.65016 6.73196 1.31869 7.27792 1.09254C7.82389 0.866396 8.40905 0.75 9 0.75C10.1935 0.75 11.3381 1.22411 12.182 2.06802C13.0259 2.91193 13.5 4.05653 13.5 5.25C13.5 6.44348 13.0259 7.58807 12.182 8.43198C11.3381 9.2759 10.1935 9.75 9 9.75ZM9 8.25C9.79565 8.25 10.5587 7.93393 11.1213 7.37132C11.6839 6.80871 12 6.04565 12 5.25C12 4.45435 11.6839 3.69129 11.1213 3.12868C10.5587 2.56607 9.79565 2.25 9 2.25C8.20435 2.25 7.44129 2.56607 6.87868 3.12868C6.31607 3.69129 6 4.45435 6 5.25C6 6.04565 6.31607 6.80871 6.87868 7.37132C7.44129 7.93393 8.20435 8.25 9 8.25Z" />
                       </svg>
                     </span>
-                    Musharof Chy
+                    Shrishti Mishra
                   </p>
-                  <p class="flex items-center font-heading text-base text-dark-text">
+                  <p class="flex items-center text-base font-heading text-dark-text">
                     <span class="pr-2">
                       <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
                         <path
                           d="M12.75 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 2.80109 16.5 3V15C16.5 15.1989 16.421 15.3897 16.2803 15.5303C16.1397 15.671 15.9489 15.75 15.75 15.75H2.25C2.05109 15.75 1.86032 15.671 1.71967 15.5303C1.57902 15.3897 1.5 15.1989 1.5 15V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902 2.05109 2.25 2.25 2.25H5.25V0.75H6.75V2.25H11.25V0.75H12.75V2.25ZM11.25 3.75H6.75V5.25H5.25V3.75H3V6.75H15V3.75H12.75V5.25H11.25V3.75ZM15 8.25H3V14.25H15V8.25Z" />
                       </svg>
                     </span>
-                    15 Feb, 2025
+                    26 Sept, 2023
                   </p>
                 </div>
                 <h3>
-                  <a href="javascript:void(0)"
-                    class="font-heading text-xl font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary md:text-2xl lg:text-xl xl:text-2xl">
-                    Tips to quickly improve your coding speed.
+                  <a href="https://eduhubcommunity.hashnode.dev/open-source-licenses-legal-considerations-for-developers"
+                    class="text-xl font-medium font-heading text-dark hover:text-primary dark:text-white dark:hover:text-primary md:text-2xl lg:text-xl xl:text-2xl">
+                    Open Source Licenses: Legal Considerations for Developers
                   </a>
                 </h3>
               </div>
@@ -1689,7 +1664,7 @@
   <!-- ===== Support Section Start ===== -->
   <section id="support" class="pt-14 sm:pt-20 lg:pt-[130px]">
     <div class="px-4 xl:container">
-      <div class="-mx-4 flex flex-wrap justify-center">
+      <div class="flex flex-wrap justify-center -mx-4">
         <div class="w-full px-4 xl:w-10/12">
           <div class="flex flex-wrap items-center border-b pb-14 dark:border-[#2E333D] lg:pb-0">
             <div class="w-full px-4 lg:w-1/2">
@@ -1709,20 +1684,20 @@
             </div>
 
             <div class="w-full px-4 lg:w-1/2">
-              <div class="wow fadeInUp flex items-center" data-wow-delay=".2s">
+              <div class="flex items-center wow fadeInUp" data-wow-delay=".2s">
                 <span class="mr-10 h-1 w-full max-w-[200px] bg-dark dark:bg-white"></span>
                 <a href="mailto:info@gostartup.com"
-                  class="font-heading text-xl text-dark dark:text-white md:text-3xl lg:text-xl xl:text-3xl">
+                  class="text-xl font-heading text-dark dark:text-white md:text-3xl lg:text-xl xl:text-3xl">
                   support@eduhubcommunity.tech
                 </a>
               </div>
             </div>
           </div>
 
-          <div class="wow fadeInUp -mx-4 flex flex-wrap pt-12" data-wow-delay=".2s">
+          <div class="flex flex-wrap pt-12 -mx-4 wow fadeInUp" data-wow-delay=".2s">
             <div class="w-full px-4 md:w-1/2 lg:w-1/4">
               <div class="mb-6">
-                <h3 class="mb-2 font-heading text-base text-dark dark:text-white sm:text-xl">
+                <h3 class="mb-2 text-base font-heading text-dark dark:text-white sm:text-xl">
                   Email Address
                 </h3>
                 <p class="text-base font-medium text-dark-text">
@@ -1732,17 +1707,17 @@
             </div>
             <div class="w-full px-4 md:w-1/2 lg:w-1/4">
               <div class="mb-6">
-                <h3 class="mb-2 font-heading text-base text-dark dark:text-white sm:text-xl">
+                <!-- <h3 class="mb-2 text-base font-heading text-dark dark:text-white sm:text-xl">
                   Phone Number
                 </h3>
                 <p class="text-base font-medium text-dark-text">
                   +91 6295605210
-                </p>
+                </p> -->
               </div>
             </div>
             <div class="w-full px-4 md:w-1/2 lg:w-1/4">
               <div class="mb-6">
-                <h3 class="mb-2 font-heading text-base text-dark dark:text-white sm:text-xl">
+                <h3 class="mb-2 text-base font-heading text-dark dark:text-white sm:text-xl">
                   Registered Location
                 </h3>
                 <p class="text-base font-medium text-dark-text">
@@ -1751,33 +1726,42 @@
               </div>
             </div>
             <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-              <div class="mb-6 flex items-center space-x-5 lg:justify-end">
-                <a href="javascript:void(0)" name="social-link" aria-label="social-link"
-                  class="text-dark-text hover:text-primary dark:hover:text-white">
-                  <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+              <div class="flex items-center mb-6 space-x-5 lg:justify-end">
+                <a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" name="social-link"
+                  aria-label="social-link" class="text-dark-text hover:text-primary dark:hover:text-white">
+                  <!-- <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                     <path
                       d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" />
+                  </svg> -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none">
+                      <path
+                        d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                      <path fill="currentColor"
+                        d="M12 4c.855 0 1.732.022 2.582.058l1.004.048l.961.057l.9.061l.822.064a3.802 3.802 0 0 1 3.494 3.423l.04.425l.075.91c.07.943.122 1.971.122 2.954c0 .983-.052 2.011-.122 2.954l-.075.91c-.013.146-.026.287-.04.425a3.802 3.802 0 0 1-3.495 3.423l-.82.063l-.9.062l-.962.057l-1.004.048A61.59 61.59 0 0 1 12 20a61.59 61.59 0 0 1-2.582-.058l-1.004-.048l-.961-.057l-.9-.062l-.822-.063a3.802 3.802 0 0 1-3.494-3.423l-.04-.425l-.075-.91A40.662 40.662 0 0 1 2 12c0-.983.052-2.011.122-2.954l.075-.91c.013-.146.026-.287.04-.425A3.802 3.802 0 0 1 5.73 4.288l.821-.064l.9-.061l.962-.057l1.004-.048A61.676 61.676 0 0 1 12 4Zm0 2c-.825 0-1.674.022-2.5.056l-.978.047l-.939.055l-.882.06l-.808.063a1.802 1.802 0 0 0-1.666 1.623C4.11 9.113 4 10.618 4 12c0 1.382.11 2.887.227 4.096c.085.872.777 1.55 1.666 1.623l.808.062l.882.06l.939.056l.978.047c.826.034 1.675.056 2.5.056s1.674-.022 2.5-.056l.978-.047l.939-.055l.882-.06l.808-.063a1.802 1.802 0 0 0 1.666-1.623C19.89 14.887 20 13.382 20 12c0-1.382-.11-2.887-.227-4.096a1.802 1.802 0 0 0-1.666-1.623l-.808-.062l-.882-.06l-.939-.056l-.978-.047A60.693 60.693 0 0 0 12 6Zm-2 3.575a.6.6 0 0 1 .819-.559l.081.04l4.2 2.424a.6.6 0 0 1 .085.98l-.085.06l-4.2 2.425a.6.6 0 0 1-.894-.43l-.006-.09v-4.85Z" />
+                    </g>
                   </svg>
+
                 </a>
-                <a href="javascript:void(0)" name="social-link" aria-label="social-link"
+                <a href="https://twitter.com/CommunityEduhub" name="social-link" aria-label="social-link"
                   class="text-dark-text hover:text-primary dark:hover:text-white">
                   <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                     <path
                       d="M22.1621 5.65593C21.3986 5.99362 20.589 6.2154 19.7601 6.31393C20.6338 5.79136 21.2878 4.96894 21.6001 3.99993C20.7801 4.48793 19.8811 4.82993 18.9441 5.01493C18.3147 4.34151 17.4804 3.89489 16.571 3.74451C15.6616 3.59413 14.728 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0772 6.14972C11.6979 6.98983 11.6068 7.93171 11.8181 8.82893C10.1552 8.74558 8.52838 8.31345 7.04334 7.56059C5.55829 6.80773 4.24818 5.75098 3.19805 4.45893C2.82634 5.09738 2.63101 5.82315 2.63205 6.56193C2.63205 8.01193 3.37005 9.29293 4.49205 10.0429C3.82806 10.022 3.17868 9.84271 2.59805 9.51993V9.57193C2.59825 10.5376 2.93242 11.4735 3.5439 12.221C4.15538 12.9684 5.00653 13.4814 5.95305 13.6729C5.33667 13.84 4.69036 13.8646 4.06305 13.7449C4.32992 14.5762 4.85006 15.3031 5.55064 15.824C6.25123 16.345 7.09718 16.6337 7.97005 16.6499C7.10253 17.3313 6.10923 17.8349 5.04693 18.1321C3.98464 18.4293 2.87418 18.5142 1.77905 18.3819C3.69075 19.6114 5.91615 20.2641 8.18905 20.2619C15.8821 20.2619 20.0891 13.8889 20.0891 8.36193C20.0891 8.18193 20.0841 7.99993 20.0761 7.82193C20.8949 7.2301 21.6017 6.49695 22.1631 5.65693L22.1621 5.65593Z" />
                   </svg>
                 </a>
-                <a href="javascript:void(0)" name="social-link" aria-label="social-link"
+                <a href="https://www.linkedin.com/company/eduhub-community" name="social-link" aria-label="social-link"
                   class="text-dark-text hover:text-primary dark:hover:text-white">
                   <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                     <path
                       d="M6.93994 5.00002C6.93968 5.53046 6.72871 6.03906 6.35345 6.41394C5.97819 6.78883 5.46938 6.99929 4.93894 6.99902C4.40851 6.99876 3.89991 6.78779 3.52502 6.41253C3.15014 6.03727 2.93968 5.52846 2.93994 4.99802C2.94021 4.46759 3.15117 3.95899 3.52644 3.5841C3.9017 3.20922 4.41051 2.99876 4.94094 2.99902C5.47137 2.99929 5.97998 3.21026 6.35486 3.58552C6.72975 3.96078 6.94021 4.46959 6.93994 5.00002ZM6.99994 8.48002H2.99994V21H6.99994V8.48002ZM13.3199 8.48002H9.33994V21H13.2799V14.43C13.2799 10.77 18.0499 10.43 18.0499 14.43V21H21.9999V13.07C21.9999 6.90002 14.9399 7.13002 13.2799 10.16L13.3199 8.48002Z" />
                   </svg>
                 </a>
-                <a href="javascript:void(0)" name="social-link" aria-label="social-link"
+                <a href="https://www.instagram.com/eduhub_community/" name="social-link" aria-label="social-link"
                   class="text-dark-text hover:text-primary dark:hover:text-white">
-                  <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                    <path
-                      d="M7.443 5.34961C8.082 5.34961 8.673 5.39961 9.213 5.54761C9.70302 5.63765 10.1708 5.82244 10.59 6.09161C10.984 6.33861 11.279 6.68561 11.475 7.13061C11.672 7.57561 11.77 8.12061 11.77 8.71361C11.77 9.40661 11.623 9.99961 11.279 10.4446C10.984 10.8906 10.492 11.2856 9.902 11.5826C10.738 11.8306 11.377 12.2756 11.77 12.8686C12.164 13.4626 12.41 14.2046 12.41 15.0456C12.41 15.7386 12.262 16.3316 12.016 16.8266C11.77 17.3216 11.377 17.7666 10.934 18.0636C10.4528 18.382 9.92084 18.616 9.361 18.7556C8.771 18.9046 8.181 19.0036 7.591 19.0036H1V5.34961H7.443ZM7.049 10.8896C7.59 10.8896 8.033 10.7416 8.377 10.4946C8.721 10.2476 8.869 9.80161 8.869 9.25761C8.869 8.96061 8.819 8.66361 8.721 8.46661C8.623 8.26861 8.475 8.11961 8.279 7.97161C8.082 7.87261 7.885 7.77361 7.639 7.72461C7.393 7.67461 7.148 7.67461 6.852 7.67461H4V10.8906H7.05L7.049 10.8896ZM7.197 16.7276C7.492 16.7276 7.787 16.6776 8.033 16.6286C8.28138 16.5814 8.51628 16.48 8.721 16.3316C8.92139 16.1868 9.08903 16.0015 9.213 15.7876C9.311 15.5406 9.41 15.2436 9.41 14.8976C9.41 14.2046 9.213 13.7096 8.82 13.3636C8.426 13.0666 7.885 12.9186 7.246 12.9186H4V16.7286H7.197V16.7276ZM16.689 16.6776C17.082 17.0736 17.672 17.2716 18.459 17.2716C19 17.2716 19.492 17.1236 19.885 16.8766C20.279 16.5796 20.525 16.2826 20.623 15.9856H23.033C22.639 17.1726 22.049 18.0136 21.263 18.5576C20.475 19.0526 19.541 19.3496 18.41 19.3496C17.6864 19.3518 16.9688 19.2175 16.295 18.9536C15.6887 18.7262 15.148 18.3524 14.721 17.8656C14.2643 17.4102 13.9267 16.8494 13.738 16.2326C13.492 15.5896 13.393 14.8976 13.393 14.1056C13.393 13.3636 13.492 12.6716 13.738 12.0276C13.9745 11.4077 14.3245 10.8373 14.77 10.3456C15.213 9.90061 15.754 9.50561 16.344 9.25761C17.0007 8.99367 17.7022 8.8592 18.41 8.86161C19.246 8.86161 19.984 9.01061 20.623 9.35661C21.263 9.70261 21.754 10.0986 22.148 10.6926C22.5499 11.2631 22.8494 11.8993 23.033 12.5726C23.131 13.2646 23.18 13.9576 23.131 14.7486H16C16 15.5406 16.295 16.2826 16.689 16.6786V16.6776ZM19.787 11.4836C19.443 11.1376 18.902 10.9396 18.262 10.9396C17.82 10.9396 17.475 11.0386 17.18 11.1866C16.885 11.3356 16.689 11.5336 16.492 11.7316C16.311 11.9229 16.1912 12.1638 16.148 12.4236C16.098 12.6716 16.049 12.8686 16.049 13.0666H20.475C20.377 12.3246 20.131 11.8306 19.787 11.4836ZM15.459 6.28961H20.967V7.62561H15.46V6.28961H15.459Z" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z" />
                   </svg>
                 </a>
               </div>
@@ -1788,10 +1772,10 @@
 
       <div class="mx-auto max-w-[780px] pt-[130px]">
         <form class="wow fadeInUp" data-wow-delay=".2s" action="https://formbold.com/s/unique_form_id" method="POST">
-          <div class="-mx-4 flex flex-wrap">
+          <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4 sm:w-1/2">
               <div class="mb-12">
-                <label for="name" class="mb-3 block font-heading text-base text-dark dark:text-white">
+                <label for="name" class="block mb-3 text-base font-heading text-dark dark:text-white">
                   Your Name
                 </label>
                 <input type="text" name="name" id="name" placeholder="Full Name"
@@ -1800,7 +1784,7 @@
             </div>
             <div class="w-full px-4 sm:w-1/2">
               <div class="mb-12">
-                <label for="email" class="mb-3 block font-heading text-base text-dark dark:text-white">
+                <label for="email" class="block mb-3 text-base font-heading text-dark dark:text-white">
                   Email Address
                 </label>
                 <input type="email" name="email" id="email" placeholder="Email Address"
@@ -1809,7 +1793,7 @@
             </div>
             <div class="w-full px-4 sm:w-1/2">
               <div class="mb-12">
-                <label for="phone" class="mb-3 block font-heading text-base text-dark dark:text-white">
+                <label for="phone" class="block mb-3 text-base font-heading text-dark dark:text-white">
                   Phone (Optional)
                 </label>
                 <input type="text" name="phone" id="phone" placeholder="Phone Number"
@@ -1818,7 +1802,7 @@
             </div>
             <div class="w-full px-4 sm:w-1/2">
               <div class="mb-12">
-                <label for="subject" class="mb-3 block font-heading text-base text-dark dark:text-white">
+                <label for="subject" class="block mb-3 text-base font-heading text-dark dark:text-white">
                   Subject
                 </label>
                 <input type="text" name="subject" id="subject" placeholder="Type Subject"
@@ -1827,7 +1811,7 @@
             </div>
             <div class="w-full px-4">
               <div class="mb-10">
-                <label for="message" class="mb-3 block font-heading text-base text-dark dark:text-white">
+                <label for="message" class="block mb-3 text-base font-heading text-dark dark:text-white">
                   Message
                 </label>
                 <textarea rows="4" name="message" id="message" placeholder="Type Message"
@@ -1877,9 +1861,9 @@
         class="wow fadeInUp relative overflow-hidden bg-cover bg-center py-[60px] px-10 drop-shadow-light dark:drop-shadow-none sm:px-[70px]"
         data-wow-delay=".2s">
         <div
-          class="absolute top-0 left-0 -z-10 h-full w-full bg-cover bg-center opacity-10 dark:opacity-40 bg-noise-pattern">
+          class="absolute top-0 left-0 w-full h-full bg-center bg-cover -z-10 opacity-10 dark:opacity-40 bg-noise-pattern">
         </div>
-        <div class="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2">
+        <div class="absolute bottom-0 -translate-x-1/2 left-1/2 -z-10">
           <svg width="1215" height="259" viewBox="0 0 1215 259" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.6" filter="url(#filter0_f_63_363)">
               <rect x="450" y="189" width="315" height="378" fill="url(#paint0_linear_63_363)" />
@@ -1900,7 +1884,7 @@
           </svg>
         </div>
 
-        <div class="-mx-4 flex flex-wrap items-center">
+        <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full px-4 lg:w-2/3">
             <div class="mx-auto mb-10 max-w-[550px] text-center lg:ml-0 lg:mb-0 lg:text-left">
               <h2
@@ -1929,44 +1913,48 @@
   <!-- ===== Footer Start ===== -->
   <footer class="wow fadeInUp pt-14 sm:pt-20 lg:pt-[130px]" data-wow-delay=".2s">
     <div class="px-4 xl:container">
-      <div class="-mx-4 flex flex-wrap">
+      <div class="flex flex-wrap -mx-4">
         <div class="w-full px-4 sm:w-1/2 md:w-5/12 lg:w-3/12 xl:w-3/12">
           <div class="mb-20 max-w-[330px]">
-            <a href="index.html" class="mb-6 inline-block">
-              <img src="src/images/logo/logo-dark.svg" alt="logo" class="hidden h-[50px] dark:block" />
+            <a href="index.html" class="inline-block mb-6">
+              <img src="/src/images/eduhub/img.png" alt="logo" class="hidden h-[50px] dark:block" />
               <img src="src/images/logo/logo-light.svg" alt="logo" class="h-[50px] dark:hidden" />
             </a>
 
             <p class="mb-10 text-base text-dark-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Let's Take You Forward ;)
             </p>
             <div class="flex items-center space-x-5">
-              <a href="javascript:void(0)" name="social-link" aria-label="social-link"
-                class="text-dark-text hover:text-primary dark:hover:text-white">
-                <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                  <path
-                    d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" />
+              <a href="https://www.youtube.com/channel/UCPpG3qqMH_0QDvSzHyjjZJQ" name="social-link"
+                aria-label="social-link" class="text-dark-text hover:text-primary dark:hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g fill="none">
+                    <path
+                      d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                    <path fill="currentColor"
+                      d="M12 4c.855 0 1.732.022 2.582.058l1.004.048l.961.057l.9.061l.822.064a3.802 3.802 0 0 1 3.494 3.423l.04.425l.075.91c.07.943.122 1.971.122 2.954c0 .983-.052 2.011-.122 2.954l-.075.91c-.013.146-.026.287-.04.425a3.802 3.802 0 0 1-3.495 3.423l-.82.063l-.9.062l-.962.057l-1.004.048A61.59 61.59 0 0 1 12 20a61.59 61.59 0 0 1-2.582-.058l-1.004-.048l-.961-.057l-.9-.062l-.822-.063a3.802 3.802 0 0 1-3.494-3.423l-.04-.425l-.075-.91A40.662 40.662 0 0 1 2 12c0-.983.052-2.011.122-2.954l.075-.91c.013-.146.026-.287.04-.425A3.802 3.802 0 0 1 5.73 4.288l.821-.064l.9-.061l.962-.057l1.004-.048A61.676 61.676 0 0 1 12 4Zm0 2c-.825 0-1.674.022-2.5.056l-.978.047l-.939.055l-.882.06l-.808.063a1.802 1.802 0 0 0-1.666 1.623C4.11 9.113 4 10.618 4 12c0 1.382.11 2.887.227 4.096c.085.872.777 1.55 1.666 1.623l.808.062l.882.06l.939.056l.978.047c.826.034 1.675.056 2.5.056s1.674-.022 2.5-.056l.978-.047l.939-.055l.882-.06l.808-.063a1.802 1.802 0 0 0 1.666-1.623C19.89 14.887 20 13.382 20 12c0-1.382-.11-2.887-.227-4.096a1.802 1.802 0 0 0-1.666-1.623l-.808-.062l-.882-.06l-.939-.056l-.978-.047A60.693 60.693 0 0 0 12 6Zm-2 3.575a.6.6 0 0 1 .819-.559l.081.04l4.2 2.424a.6.6 0 0 1 .085.98l-.085.06l-4.2 2.425a.6.6 0 0 1-.894-.43l-.006-.09v-4.85Z" />
+                  </g>
                 </svg>
               </a>
-              <a href="javascript:void(0)" name="social-link" aria-label="social-link"
+              <a href="https://twitter.com/CommunityEduhub" name="social-link" aria-label="social-link"
                 class="text-dark-text hover:text-primary dark:hover:text-white">
                 <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                   <path
                     d="M22.1621 5.65593C21.3986 5.99362 20.589 6.2154 19.7601 6.31393C20.6338 5.79136 21.2878 4.96894 21.6001 3.99993C20.7801 4.48793 19.8811 4.82993 18.9441 5.01493C18.3147 4.34151 17.4804 3.89489 16.571 3.74451C15.6616 3.59413 14.728 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0772 6.14972C11.6979 6.98983 11.6068 7.93171 11.8181 8.82893C10.1552 8.74558 8.52838 8.31345 7.04334 7.56059C5.55829 6.80773 4.24818 5.75098 3.19805 4.45893C2.82634 5.09738 2.63101 5.82315 2.63205 6.56193C2.63205 8.01193 3.37005 9.29293 4.49205 10.0429C3.82806 10.022 3.17868 9.84271 2.59805 9.51993V9.57193C2.59825 10.5376 2.93242 11.4735 3.5439 12.221C4.15538 12.9684 5.00653 13.4814 5.95305 13.6729C5.33667 13.84 4.69036 13.8646 4.06305 13.7449C4.32992 14.5762 4.85006 15.3031 5.55064 15.824C6.25123 16.345 7.09718 16.6337 7.97005 16.6499C7.10253 17.3313 6.10923 17.8349 5.04693 18.1321C3.98464 18.4293 2.87418 18.5142 1.77905 18.3819C3.69075 19.6114 5.91615 20.2641 8.18905 20.2619C15.8821 20.2619 20.0891 13.8889 20.0891 8.36193C20.0891 8.18193 20.0841 7.99993 20.0761 7.82193C20.8949 7.2301 21.6017 6.49695 22.1631 5.65693L22.1621 5.65593Z" />
                 </svg>
               </a>
-              <a href="javascript:void(0)" name="social-link" aria-label="social-link"
+              <a href="https://www.linkedin.com/company/eduhub-community" name="social-link" aria-label="social-link"
                 class="text-dark-text hover:text-primary dark:hover:text-white">
                 <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                   <path
                     d="M6.93994 5.00002C6.93968 5.53046 6.72871 6.03906 6.35345 6.41394C5.97819 6.78883 5.46938 6.99929 4.93894 6.99902C4.40851 6.99876 3.89991 6.78779 3.52502 6.41253C3.15014 6.03727 2.93968 5.52846 2.93994 4.99802C2.94021 4.46759 3.15117 3.95899 3.52644 3.5841C3.9017 3.20922 4.41051 2.99876 4.94094 2.99902C5.47137 2.99929 5.97998 3.21026 6.35486 3.58552C6.72975 3.96078 6.94021 4.46959 6.93994 5.00002ZM6.99994 8.48002H2.99994V21H6.99994V8.48002ZM13.3199 8.48002H9.33994V21H13.2799V14.43C13.2799 10.77 18.0499 10.43 18.0499 14.43V21H21.9999V13.07C21.9999 6.90002 14.9399 7.13002 13.2799 10.16L13.3199 8.48002Z" />
                 </svg>
               </a>
-              <a href="javascript:void(0)" name="social-link" aria-label="social-link"
+              <a href="https://www.instagram.com/eduhub_community/" name="social-link" aria-label="social-link"
                 class="text-dark-text hover:text-primary dark:hover:text-white">
-                <svg width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                  <path
-                    d="M7.443 5.34961C8.082 5.34961 8.673 5.39961 9.213 5.54761C9.70302 5.63765 10.1708 5.82244 10.59 6.09161C10.984 6.33861 11.279 6.68561 11.475 7.13061C11.672 7.57561 11.77 8.12061 11.77 8.71361C11.77 9.40661 11.623 9.99961 11.279 10.4446C10.984 10.8906 10.492 11.2856 9.902 11.5826C10.738 11.8306 11.377 12.2756 11.77 12.8686C12.164 13.4626 12.41 14.2046 12.41 15.0456C12.41 15.7386 12.262 16.3316 12.016 16.8266C11.77 17.3216 11.377 17.7666 10.934 18.0636C10.4528 18.382 9.92084 18.616 9.361 18.7556C8.771 18.9046 8.181 19.0036 7.591 19.0036H1V5.34961H7.443ZM7.049 10.8896C7.59 10.8896 8.033 10.7416 8.377 10.4946C8.721 10.2476 8.869 9.80161 8.869 9.25761C8.869 8.96061 8.819 8.66361 8.721 8.46661C8.623 8.26861 8.475 8.11961 8.279 7.97161C8.082 7.87261 7.885 7.77361 7.639 7.72461C7.393 7.67461 7.148 7.67461 6.852 7.67461H4V10.8906H7.05L7.049 10.8896ZM7.197 16.7276C7.492 16.7276 7.787 16.6776 8.033 16.6286C8.28138 16.5814 8.51628 16.48 8.721 16.3316C8.92139 16.1868 9.08903 16.0015 9.213 15.7876C9.311 15.5406 9.41 15.2436 9.41 14.8976C9.41 14.2046 9.213 13.7096 8.82 13.3636C8.426 13.0666 7.885 12.9186 7.246 12.9186H4V16.7286H7.197V16.7276ZM16.689 16.6776C17.082 17.0736 17.672 17.2716 18.459 17.2716C19 17.2716 19.492 17.1236 19.885 16.8766C20.279 16.5796 20.525 16.2826 20.623 15.9856H23.033C22.639 17.1726 22.049 18.0136 21.263 18.5576C20.475 19.0526 19.541 19.3496 18.41 19.3496C17.6864 19.3518 16.9688 19.2175 16.295 18.9536C15.6887 18.7262 15.148 18.3524 14.721 17.8656C14.2643 17.4102 13.9267 16.8494 13.738 16.2326C13.492 15.5896 13.393 14.8976 13.393 14.1056C13.393 13.3636 13.492 12.6716 13.738 12.0276C13.9745 11.4077 14.3245 10.8373 14.77 10.3456C15.213 9.90061 15.754 9.50561 16.344 9.25761C17.0007 8.99367 17.7022 8.8592 18.41 8.86161C19.246 8.86161 19.984 9.01061 20.623 9.35661C21.263 9.70261 21.754 10.0986 22.148 10.6926C22.5499 11.2631 22.8494 11.8993 23.033 12.5726C23.131 13.2646 23.18 13.9576 23.131 14.7486H16C16 15.5406 16.295 16.2826 16.689 16.6786V16.6776ZM19.787 11.4836C19.443 11.1376 18.902 10.9396 18.262 10.9396C17.82 10.9396 17.475 11.0386 17.18 11.1866C16.885 11.3356 16.689 11.5336 16.492 11.7316C16.311 11.9229 16.1912 12.1638 16.148 12.4236C16.098 12.6716 16.049 12.8686 16.049 13.0666H20.475C20.377 12.3246 20.131 11.8306 19.787 11.4836ZM15.459 6.28961H20.967V7.62561H15.46V6.28961H15.459Z" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z" />
                 </svg>
               </a>
             </div>
@@ -1975,36 +1963,36 @@
 
         <div class="w-1/2 px-4 md:w-3/12 lg:w-3/12 xl:w-2/12">
           <div class="mb-20">
-            <h3 class="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
+            <h3 class="text-2xl font-medium mb-9 font-heading text-dark dark:text-white">
               Company
             </h3>
 
             <ul class="space-y-4">
               <li>
                 <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                  class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Home
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                  class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Product
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                <a href="https://forms.gle/JJTWBjVTKvyqyvQS9
+                " class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Careers
-                  <span class="ml-4 rounded bg-primary py-1 px-2 font-heading text-xs text-white">
+                  <span class="px-2 py-1 ml-4 text-xs text-white rounded bg-primary font-heading">
                     Hiring
                   </span>
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
-                  Pricing
+                <a href="https://docs.google.com/document/d/1lKJX9eHTPd1bCNpOssPaXYyZLbDYrbaywOyofkAfHFI/edit?usp=sharing"
+                  class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
+                  Code Of Conduct
                 </a>
               </li>
             </ul>
@@ -2013,32 +2001,32 @@
 
         <div class="w-1/2 px-4 md:w-3/12 lg:w-3/12 xl:w-2/12">
           <div class="mb-20">
-            <h3 class="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
+            <h3 class="text-2xl font-medium mb-9 font-heading text-dark dark:text-white">
               Support
             </h3>
 
             <ul class="space-y-4">
               <li>
-                <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
-                  Company
+                <a href="https://drive.google.com/file/d/1G3uDu9hbX7_oFa2B1bikeaTBPr2wBxs-/view"
+                  class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
+                  MSME
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                  class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Press media
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                <a href="https://eduhubcommunity.hashnode.dev/"
+                  class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Our Blog
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)"
-                  class="font-heading text-base text-dark-text hover:text-primary dark:hover:text-white">
+                  class="text-base font-heading text-dark-text hover:text-primary dark:hover:text-white">
                   Contact Us
                 </a>
               </li>
@@ -2048,27 +2036,27 @@
 
         <div class="w-full px-4 sm:w-1/2 md:w-5/12 lg:w-3/12 xl:w-2/12">
           <div class="mb-20">
-            <h3 class="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
+            <h3 class="text-2xl font-medium mb-9 font-heading text-dark dark:text-white">
               Get in touch
             </h3>
 
             <div class="space-y-7">
               <div>
-                <p class="font-heading text-base text-dark-text">
-                  Toll Free Customer Care
+                <p class="text-base font-heading text-dark-text">
+                  Customer Care
                 </p>
                 <a href="tel:+(1) 123 456 7890"
-                  class="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary">
-                  +(1) 123 456 7890
+                  class="text-base font-heading text-dark hover:text-primary dark:text-white dark:hover:text-primary">
+                  +91 6295605210
                 </a>
               </div>
               <div>
-                <p class="font-heading text-base text-dark-text">
+                <p class="text-base font-heading text-dark-text">
                   Need live support?
                 </p>
                 <a href="mailto:support@domain.com"
-                  class="font-heading text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary">
-                  support@domain.com
+                  class="text-base font-heading text-dark hover:text-primary dark:text-white dark:hover:text-primary">
+                  support@eduhubcommunity.tech
                 </a>
               </div>
             </div>
@@ -2077,13 +2065,13 @@
 
         <div class="w-full px-4 sm:w-1/2 md:w-5/12 lg:w-5/12 xl:w-3/12">
           <div class="mb-20">
-            <h3 class="mb-9 font-heading text-2xl font-medium text-dark dark:text-white">
+            <!-- <h3 class="text-2xl font-medium mb-9 font-heading text-dark dark:text-white">
               Newsletter
             </h3>
-            <p class="mb-6 font-heading text-base text-dark-text">
+            <p class="mb-6 text-base font-heading text-dark-text">
               Subscribe to receive future updates
-            </p>
-            <form class="relative">
+            </p> -->
+            <!-- <form class="relative">
               <input type="email" name="email" id="email" placeholder="Email address"
                 class="pladeholder-opacity-40 w-full rounded border py-3 pl-5 pr-12 text-base text-dark-text outline-none focus:border-primary dark:border-transparent dark:bg-[#2C3443]" />
               <button
@@ -2093,31 +2081,32 @@
                     d="M3.1175 1.17367L18.5025 9.63533C18.5678 9.6713 18.6223 9.72414 18.6602 9.78834C18.6982 9.85255 18.7182 9.92576 18.7182 10.0003C18.7182 10.0749 18.6982 10.1481 18.6602 10.2123C18.6223 10.2765 18.5678 10.3294 18.5025 10.3653L3.1175 18.827C3.05406 18.8619 2.98262 18.8797 2.91023 18.8785C2.83783 18.8774 2.76698 18.8575 2.70465 18.8206C2.64232 18.7838 2.59066 18.7313 2.55478 18.6684C2.51889 18.6056 2.50001 18.5344 2.5 18.462V1.53867C2.50001 1.46626 2.51889 1.39511 2.55478 1.33222C2.59066 1.26934 2.64232 1.21689 2.70465 1.18005C2.76698 1.1432 2.83783 1.12324 2.91023 1.12212C2.98262 1.121 3.05406 1.13877 3.1175 1.17367ZM4.16667 10.8337V16.3478L15.7083 10.0003L4.16667 3.65283V9.167H8.33333V10.8337H4.16667Z" />
                 </svg>
               </button>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
 
       <div class="dark:border-[#2E333D] md:border-t">
-        <div class="-mx-4 flex flex-wrap py-5 md:py-7">
+        <div class="flex flex-wrap py-5 -mx-4 md:py-7">
           <div class="w-full px-4 md:w-1/2 lg:w-2/3">
             <div
               class="mb-5 flex items-center justify-center space-x-5 border-b pb-5 dark:border-[#2E333D] md:mb-0 md:justify-start md:border-0 md:pb-0">
-              <a href="javascript:void(0)" class="font-heading text-base text-dark-text hover:text-primary">
+              <a href="javascript:void(0)" class="text-base font-heading text-dark-text hover:text-primary">
                 English
               </a>
-              <a href="javascript:void(0)" class="font-heading text-base text-dark-text hover:text-primary">
+              <a href="https://docs.google.com/document/d/1lKJX9eHTPd1bCNpOssPaXYyZLbDYrbaywOyofkAfHFI/edit?usp=sharing"
+                class="text-base font-heading text-dark-text hover:text-primary">
                 Privacy Policy
               </a>
-              <a href="javascript:void(0)" class="font-heading text-base text-dark-text hover:text-primary">
+              <a href="javascript:void(0)" class="text-base font-heading text-dark-text hover:text-primary">
                 Support
               </a>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div>
-              <p class="text-center font-heading text-base text-dark-text lg:text-right">
-                © 2025 Startup. All rights reserved
+              <p class="text-base text-center font-heading text-dark-text lg:text-right">
+                © 2023 Startup. All rights reserved
               </p>
             </div>
           </div>
